@@ -1,0 +1,15 @@
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\program.exe.config
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\program.exe
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\program.pdb
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\OrderTest.exe
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\OrderTest.pdb
+C:\Users\LENOVO\source\repos\homework7\program\bin\Debug\OrderTest.exe.config
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.Form1.resources
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.exe
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.pdb
+C:\Users\LENOVO\source\repos\homework7\program\obj\Debug\program.Form2.resources
