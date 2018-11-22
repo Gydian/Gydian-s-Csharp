@@ -1,0 +1,7 @@
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\bin\Debug\SimpleCrawler.exe.config
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\bin\Debug\SimpleCrawler.exe
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\bin\Debug\SimpleCrawler.pdb
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\obj\Debug\SimpleCrawler.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\obj\Debug\SimpleCrawler.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\obj\Debug\SimpleCrawler.exe
+C:\Users\LENOVO\source\repos\homework8\SimpleCrawler\obj\Debug\SimpleCrawler.pdb

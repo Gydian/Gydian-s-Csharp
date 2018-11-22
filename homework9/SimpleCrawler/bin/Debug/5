@@ -1,0 +1,941 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/H_hei"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <script src="https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js"></script>
+
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>【H_hei的博客】机器学习 公理到算法_简单算法_Linux之路 - CSDN博客</title>
+
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/list-2b412942ac.min.css">
+    
+        
+    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9b39979775.min.css">
+
+    <script type="text/javascript">
+        var username = "H_hei";
+        var blog_address = "https://blog.csdn.net/h_hei";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/H_hei"
+        var blogUrl = "https://blog.csdn.net/";
+        //页面皮肤样式
+        var curSkin = "skin3-template";
+        // 第四范式所需数据
+        var articleTitles = "【H_hei的博客】机器学习 公理到算法_简单算法_Linux之路";
+        var articleID = "";
+
+        var nickName = "丿回到火星去";
+    </script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <!-- 新版上报 -->
+    <script src="//g.csdnimg.cn/track/1.1.1/track.js" type="text/javascript"></script>
+    <!-- 新版上报end -->
+        <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<!-- nodata 第三栏接口无数据时样式不变 -->
+<body class="nodata"> 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<header>
+	<div class="container d-flex clearfix">
+		<div class="title-box">
+			<h1 class="title-blog">
+				<a href="https://blog.csdn.net/h_hei">H_hei的博客</a>
+			</h1>
+			<p class="description"></p>
+		</div>
+		<div class="opt-box d-flex justify-content-end">
+			<a class="btn btn-sm" href="https://blog.csdn.net/h_hei/rss/list">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#csdnc-rss"></use>
+					</svg>RSS订阅</a>
+					</div>
+	</div>
+</header><script src="https://dup.baidustatic.com/js/ds.js"></script>
+<div class="container clearfix pt0" id="mainBox">
+    <main>
+      <div class="filter-box d-flex align-items-center">
+      <form action="/H_hei" id=seeOriginal>
+    <label class="chk-box" for="chkOriginal">
+      <input onchange="this.checked ? document.getElementById('seeOriginal').submit() : location.href = 'https://blog.csdn.net/H_hei'" type="checkbox" name="t" value="1"  id="chkOriginal">只看原创</label></form>
+    <dl class="filter-sort-box d-flex align-items-center">
+    <dt>排序：</dt>
+    <dd><a href="javascript:void(0);" class="btn-filter-sort active" target="_self">默认</a></dd>
+    <dd><a href="https://blog.csdn.net/H_hei?utm_source=feed&orderby=UpdateTime" class="btn-filter-sort " target="_self">按更新时间</a></dd>
+    <dd><a href="https://blog.csdn.net/H_hei?utm_source=feed&orderby=ViewCount" class="btn-filter-sort " target="_self">按访问量</a></dd>
+  </dl>
+</div>
+
+
+
+<div class="article-list">
+    
+    <div class="article-item-box csdn-tracking-statistics" style="display: none;" data-articleid="82762601">
+        <h4 class="">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+            <span class="article-type type-1">原</span>帝都的凛冬</a>
+        </h4>
+        <p class="content">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+                各种AI、人工智能、大数据如秋日凉爽的风，杳然erzhi；区块链的风头得到短暂的下降。
+
+                此次山竹台风造成了多少伤亡和破坏？人民的生命和财产遭受重大损失
+            </a>
+        </p>
+        <div class="info-box d-flex align-content-center">
+            <p>
+                <span class="date">2018-11-21 11:41:32</span>
+            </p>
+            <p>
+                <span class="read-num">阅读数：13</span>
+            </p>
+            <p>
+                <span class="read-num">评论数：2</span>
+            </p>
+        </div>
+    </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="84294994">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/84294994" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        集成算法(AdaBoost基本原理)      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/84294994" target="_blank">
+        1. 引言
+提升算法大多都是基于这样的一个思想；对于一个复杂的任务来说，将多个专家的判断进行适当的综合所得出的判断，要比其中任何一个专家单独判断的好。实际上就是 三个臭皮匠，顶个诸葛亮的道理。
+AdaBoost算法是提升算法中具有代表性的一种，它通过改变样本的权重，学习多个分类器，并将这些分类器线...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-20 13:45:39</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：22</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="84196235">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/84196235" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        集成算法(Bagging，随机森林)      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/84196235" target="_blank">
+        引言（关于集成学习）
+集成算法包括很多种包括Bagging，随机森林，Boosting 以及其他更加高效的集成算法。在这篇博客上只介绍Bagging算法及随机森林，Boosting提升算法及其他高效的算法在下一篇详细讲解。
+集成算法就是通过构建多个学习器来完成学习任务，是由多个基学习器或者是个体学...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-18 12:55:33</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：1758</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="84142537">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/84142537" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        决策树 ( decision tree)详解      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/84142537" target="_blank">
+        决策树算法的基本流程
+
+决策树顾名思义就是基于树对问题的决策和判别的过程，是人类在面对决策问题时一种很自然的处理机制，下面有个例子 通过决策树得出最终的结果。
+
+                              
+
+我们所要做的就是去得到这样一个树去帮助我们决策问题，使样本通过这个树实现...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-16 20:13:21</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：26</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83991209">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/83991209" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        SVM(Support Vector Machin) 支持向量机 详解      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/83991209" target="_blank">
+        吴恩达的课程中跟国内的一些教程中分析问题的思路还是有些不同的，吴恩达的课程从简单的LR开始让我们先去理解优化目标，一步步的引导我们去理解SVM，然后揭开他神秘的面纱，便于理解，是很不错的课程。我学习的国内课程是直接重点讲解，讲到SVM核心内容。在这里我总结下自己学习SVM的一些想法（目标函数的优化...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-13 22:32:04</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：125</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83927431">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/83927431" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        KNN(k-nearest neighbors) K近邻算法深入      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/83927431" target="_blank">
+        K近邻法是机器学习中一种很基本的算法，可以用做分类和回归，主要的思想跟我们生活中近墨者黑，近朱者赤的思想雷同。例如我们看一个人人品的好坏只需要看与之相交的人的品格好坏。KNN算法分类和回归主要区别在于最后做预测时候的决策方式不同：分类时我们选取与之相近的K个样本采取多数表决法来判断类别，回归时我们...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-10 15:57:31</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：38</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="83626955">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/83626955" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        在调用sklearn fit时出现 Unknown label type: 'unknown'错误      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/83626955" target="_blank">
+        在调用sklearn selectKBest().fit时出现 Unknown label type: 'unknown'错误：
+
+ 
+
+当出现此问题时一般来说是你传入的数据类型被调用函数不接受， 你需要改变数据类型。
+
+1.
+
+例如采用卡方验证选取特征时，如果你传入的是标签是float类型，会产...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-01 21:28:11</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：88</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82933890">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82933890" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        Linux系统中常见目录的作用      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82933890" target="_blank">
+        Linux系统中常见目录的作用：
+
+ 
+
+常见的目录名
+			目录的作用
+		/
+			Linux系统的根目录。
+		/bin/
+			存放系统命令的目录，普通用户和超级用户都可以执行里面的命令。该目录中的命令在单用户模式下也可以执行。
+		/sbin/
+			存放与系统环境设置相关的命令，只有超...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-03 21:00:03</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：61</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82927305">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82927305" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        Linux学习-常用命令      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82927305" target="_blank">
+         [root@localhost ~] #
+
+root ： 当前登录用户
+	localhost ： 主机名
+	~ ： 家目录
+	# ： 超级管理员提示符         $ : 普通管理员提示符
+命令格式 ：      命令  [选项]  [参数]
+
+ls [选项] [文件或目录]
+
+选项 ： 
+...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-10-02 18:36:18</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：81</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82756207">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82756207" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        JupyterLab快捷键      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82756207" target="_blank">
+        Jupyter Notebook 有两种键盘输入模式。编辑模式，允许你往单元中键入代码或文本；这时的单元框线是绿色的。命令模式，键盘输入运行程序命令；这时的单元框线是灰色。
+命令模式 (按键 Esc 开启)
+Enter : 转入编辑模式
+Shift-Enter : 运行本单元，选中下个单元
+Ctr...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-18 13:10:44</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：277</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82687111">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82687111" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        关于熵      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82687111" target="_blank">
+        信息量
+
+信息量表示事件的不确定性。一件事情发生的概率越大那么那么它的发生所带来的信息量越小，反之，一件事情发生的概率越小那么那么它的发生所带来的信息量越大。由于存在这种关系，我们可以表示一件事情发生所带来的信息量为-logP。
+
+熵
+
+熵是所有信息量的期望。 
+ H(X)=−∑i=1np(xi)...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-13 14:06:00</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：60</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82386029">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82386029" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        机器学习中的数学问题      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82386029" target="_blank">
+        拉格朗日乘数法
+
+
+
+在数学最优问题中，拉格朗日乘数法（以数学家约瑟夫·路易斯·拉格朗日命名）是一种寻找变量受一个或多个条件所限制的多元函数的极值的方法。这种方法将一个有n 个变量与k 个约束条件的最优化问题转换为一个有n + k个变量的方程组的极值问题，其变量不受任何约束。这种方法引入了一种新的...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-04 16:38:16</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：67</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82353754">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82353754" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        几种距离计算算法及相似度计算算法      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82353754" target="_blank">
+        在机器学习算法中很多会用到距离计算算法和相似度计算算法，在这里简单总结下方便以后查看。
+
+ 
+
+                                                          距离计算算法
+
+欧几里得距离
+			
+			欧几里得度量（euclidean metr...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-03 20:09:49</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：90</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="82313040">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/82313040" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        最优化—梯度下降法      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/82313040" target="_blank">
+        最优化问题
+
+最优化问题就是求解函数极值的问题， 包括极大值和极小值， 几乎所有机器学习算法归根到底都是在求解最优化问题。在高等数学/微积分中有求极值统一的思路：找函数导数等于0的点，只要函数可导我们就可以用这种方法。在机器学习中我们一般求函数的极小值，若求极大值我们只需要整体加负号。有些时候我们...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-09-02 15:32:49</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：102</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="81364116">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/81364116" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        tensorFlow使用的求导方法原理      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/81364116" target="_blank">
+        原理：
+
+TensorFlow使用的求导方法称为自动微分（Automatic Differentiation），它既不是符号求导也不是数值求导，而类似于将两者结合的产物。最基本的原理就是链式法则，关键思想是在基本操作（op）的水平上应用符号求导，并保持中间结果（grad）。基本操作的符号求导定义在...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-08-02 17:18:36</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：144</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="81363793">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/81363793" target="_blank">
+        <span class="article-type type-2">
+            转        </span>
+        Python模块 time， datetime ，date详解      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/81363793" target="_blank">
+        python datetime
+
+ 
+
+ Python提供了多个内置模块用于操作日期时间，像calendar，time，datetime。time模块我在之前的文章已经有所介绍，它提供的接口与C标准库time.h基本一致。相比于time模块，datetime模块的接口则更直观、更容易调用。今天就来...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-08-02 17:07:49</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：85</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="81274605">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/81274605" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        AUC ROC详解及使用      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/81274605" target="_blank">
+        ROC（Receiver Operating Characteristic）曲线和AUC常被用来评价一个二值分类器（binary classifier）的优劣，对两者的简单介绍见这里。这篇博文简单介绍ROC和AUC的特点，以及更为深入地，讨论如何作出ROC曲线图以及计算AUC。
+
+ROC曲线
+
+需...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-07-29 19:53:24</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：101</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="81272924">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/81272924" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        详解机器学习由 信息量→熵→相对熵→交叉熵 ___转自狐友      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/81272924" target="_blank">
+        理解流程大致如下：
+
+信息量X轴表示P y轴表示信息量
+
+
+
+ 
+
+信息论
+
+交叉熵是信息论中的一个概念，要想了解交叉熵的本质，需要先从最基本的概念讲起。
+
+1 信息量
+
+首先是信息量。假设我们听到了两件事，分别如下：
+
+事件A：巴西队进入了2018世界杯决赛圈。
+
+事件B：中国队进入了2018世...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-07-29 17:06:13</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：174</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="78507785">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/78507785" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        论Python和Java中 正则表达式 [反斜线“\”]      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/78507785" target="_blank">
+        在简单讨论Python和Java中反斜线之前首先要明确一点：正则表达式作为处理字符串一种有效的技术和工具，在很多语言中都使用了这样的技术(例如Python和Java等)。但是在每一种语言中使用的时候都有一定的不同。自己要通过多实践，去代码中仔细推敲它们的规则。1. Java中反斜线以上是JDK A...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2017-11-11 17:59:11</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：409</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="78233834">
+        <h4 class="">
+        <a href="https://blog.csdn.net/H_hei/article/details/78233834" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        快速排序      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/H_hei/article/details/78233834" target="_blank">
+        重在递归的理解算法步骤： 
+ （1）：选取主元（数组中随机一个即可，为简化程序，以下选取数组开头为主元）； 
+ （2）：小于等于主元的放左边，大于等于主元的放右边； 
+ （3）：分别对左边，右边递归，即重复（1）（2）步。void QuickSort(int array[], int left, ...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2017-10-14 13:48:06</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：129</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+</div>
+    </main>
+    <aside>
+		    <div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://me.csdn.net/H_hei">
+                <img src="https://avatar.csdn.net/3/4/D/3_h_hei.jpg" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://me.csdn.net/H_hei" target="_blank" class="" id="uid">丿回到火星去</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+                    </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="17">
+                        <dt><a href="https://blog.csdn.net/h_hei?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/h_hei?t=1"><span class="count">17</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="10">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">10</span></dd>
+        </dl>
+        <dl class="text-center" title="13">
+            <dt>喜欢</dt>
+            <dd><span class="count">13</span></dd>
+        </dl>
+        <dl class="text-center" title="0">
+            <dt>评论</dt>
+            <dd><span class="count">0</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="2级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-2"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="4356">
+                4356            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="257">
+                257            </dd>
+        </dl>
+        <dl title="335365">
+            <dt>排名：</dt>
+            <dd>33万+</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+                        <div class="icon-badge" title="持之以恒">
+            <div class="mouse-box">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#csdnc-m-lasting"></use>
+                </svg>
+                <div class="icon-arrow"></div>
+            </div>
+            <div class="grade-detail-box">
+                <div class="pos-box">
+                    <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#csdnc-m-lasting"></use>
+                        </svg>
+                        <p>持之以恒</p>
+                    </div>
+                    <div class="right-box d-flex justify-content-center align-items-center">
+                        授予每个自然月内发布4篇或4篇以上原创或翻译IT博文的用户。不积跬步无以至千里，不积小流无以成江海，程序人生的精彩需要坚持不懈地积累！
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                <script>
+            (function ($) {
+                setTimeout(function(){
+                    $('div.icon-badge.show-moment').removeClass('show-moment');
+                }, 5000);
+            })(window.jQuery)
+        </script>
+    </div>
+    </div>
+		    <div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <script type="text/javascript" src="//rabc1.iteye.com/common/leh4.js?idmc=jefav"></script>    </div>
+</div>
+		    		    		    <div id="asideCategory" class="aside-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/7886985">
+                    <span class="title oneline">机器学习 公理到算法</span>
+                    <span class="count float-right">14篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/7224650">
+                    <span class="title oneline">简单算法</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/8099783">
+                    <span class="title oneline">Linux之路</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/8294014">
+                    <span class="title oneline">Java Web</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+    </div>
+		    <div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/11">
+                    2018年11月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/10">
+                    2018年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/09">
+                    2018年9月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/08">
+                    2018年8月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/07">
+                    2018年7月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2017/11">
+                    2017年11月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2017/10">
+                    2017年10月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		    <div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/84196235">集成算法(Bagging，随机森林)</a>
+					<p class="read">阅读量：<span>1212</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/78507785">论Python和Java中 正则表达式 [反斜线“\”]</a>
+					<p class="read">阅读量：<span>408</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/82756207">JupyterLab快捷键</a>
+					<p class="read">阅读量：<span>272</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/81272924">详解机器学习由 信息量→熵→相对熵→交叉熵 ___转自狐友</a>
+					<p class="read">阅读量：<span>171</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/81364116">tensorFlow使用的求导方法原理</a>
+					<p class="read">阅读量：<span>137</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+		    		<div id="asideFooter">
+			
+		<div class="aside-box">
+			<script type="text/javascript" src="//rabc1.iteye.com/common/leh4.js?idmc=jefav"></script>		</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask"></div>
+<div class="promptBox clearfix">
+    <div class="title clearfix bottom-dis-16">
+        <span class="float-left">提示</span>
+        <a class="float-right Boxclose">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#csdnc-times"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="text">确定要删除当前文章？</div>
+    <div class="pro-btn float-right">
+        <a class="clickNo">取消</a>
+        <a class="clickYes">删除</a>
+    </div>
+</div>
+<script>
+    var currentPage = 1;
+    var baseUrl = 'https://blog.csdn.net/H_hei/article/list' ;
+    var pageSize = 20 ;
+    var listTotal = 19 ;
+    var pageQueryStr = '';
+    function getAllUrl(page) {
+        return baseUrl + "/" + page + pageQueryStr;
+    }
+</script>
+<script src="https://g.csdnimg.cn/login-box/1.0.2/login-box.js?t=1542363472"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201811201455'></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-946dc75567.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/list-150d23d4c1.min.js"></script>
+
+<script>
+    GoTop({
+        right: 8
+    })
+</script>
+<div class="box-box-default">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/mhzzjepzz.js"></script>
+</div>
+<div class="box-box-large">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/idvveasfs.js"></script>
+</div>
+</body>
+</html>

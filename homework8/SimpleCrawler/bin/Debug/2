@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/andy_5826_liu/article/category/8360205"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <script src="https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js"></script>
+
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>【 分类 】- 前端 - IT老五（公司打杂的） - CSDN博客</title>
+
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/list-2b412942ac.min.css">
+    
+        
+    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin-blackboard/skin-blackboard-1340d63bd5.min.css">
+
+    <script type="text/javascript">
+        var username = "andy_5826_liu";
+        var blog_address = "https://blog.csdn.net/andy_5826_liu";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/andy_5826_liu/article/category/8360205"
+        var blogUrl = "https://blog.csdn.net/";
+        //页面皮肤样式
+        var curSkin = "skin-blackboard";
+        // 第四范式所需数据
+        var articleTitles = "【 分类 】- 前端 - IT老五（公司打杂的）";
+        var articleID = "";
+
+        var nickName = "ThinkinLiu";
+    </script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <!-- 新版上报 -->
+    <script src="//g.csdnimg.cn/track/1.1.1/track.js" type="text/javascript"></script>
+    <!-- 新版上报end -->
+        <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<!-- nodata 第三栏接口无数据时样式不变 -->
+<body class="nodata"> 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<header>
+	<div class="container d-flex clearfix">
+		<div class="title-box">
+			<h1 class="title-blog">
+				<a href="https://blog.csdn.net/andy_5826_liu">IT老五</a>
+			</h1>
+			<p class="description">公司打杂的</p>
+		</div>
+		<div class="opt-box d-flex justify-content-end">
+			<a class="btn btn-sm" href="https://blog.csdn.net/andy_5826_liu/rss/list">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#csdnc-rss"></use>
+					</svg>RSS订阅</a>
+					</div>
+	</div>
+</header><script src="https://dup.baidustatic.com/js/ds.js"></script>
+<div class="container clearfix pt0" id="mainBox">
+    <main>
+      <div class="filter-box d-flex align-items-center">
+    <div class="breadcrumbs-box">
+    <a href="https://blog.csdn.net/andy_5826_liu">全部文章</a><span class="ml8 mr8">></span>              前端                </div>
+    <dl class="filter-sort-box d-flex align-items-center">
+    <dt>排序：</dt>
+    <dd><a href="javascript:void(0);" class="btn-filter-sort active" target="_self">默认</a></dd>
+    <dd><a href="https://blog.csdn.net/andy_5826_liu/article/category/8360205?orderby=UpdateTime" class="btn-filter-sort " target="_self">按更新时间</a></dd>
+    <dd><a href="https://blog.csdn.net/andy_5826_liu/article/category/8360205?orderby=ViewCount" class="btn-filter-sort " target="_self">按访问量</a></dd>
+  </dl>
+</div>
+
+
+
+<div class="article-list">
+    
+    <div class="article-item-box csdn-tracking-statistics" style="display: none;" data-articleid="82762601">
+        <h4 class="">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+            <span class="article-type type-1">原</span>帝都的凛冬</a>
+        </h4>
+        <p class="content">
+            <a href="https://blog.csdn.net/yoyo_liyy/article/details/82762601" target="_blank">
+                各种AI、人工智能、大数据如秋日凉爽的风，杳然erzhi；区块链的风头得到短暂的下降。
+
+                此次山竹台风造成了多少伤亡和破坏？人民的生命和财产遭受重大损失
+            </a>
+        </p>
+        <div class="info-box d-flex align-content-center">
+            <p>
+                <span class="date">2018-11-21 11:41:31</span>
+            </p>
+            <p>
+                <span class="read-num">阅读数：13</span>
+            </p>
+            <p>
+                <span class="read-num">评论数：2</span>
+            </p>
+        </div>
+    </div>
+  <div class="article-item-box csdn-tracking-statistics" data-articleid="84097710">
+        <h4 class="">
+        <a href="https://blog.csdn.net/andy_5826_liu/article/details/84097710" target="_blank">
+        <span class="article-type type-1">
+            原        </span>
+        h5 range实现slider滑块功能及样式自定义      </a>
+    </h4>
+    <p class="content">
+      <a href="https://blog.csdn.net/andy_5826_liu/article/details/84097710" target="_blank">
+        
+公司最近人手不足，于是，又开始折腾起Html来了
+本文主要讲slider滑块的实现、样式自定义、刻度绘制、与输入框的联动
+######我们先来看看效果图
+
+上图中，我们需要实现的难点就是那个绿色的滑块，其它都是输入框及文本框，容易实现。
+###滑块的实现
+其实，只要设置input的type，即可...      </a>
+    </p>
+    <div class="info-box d-flex align-content-center">
+      <p>
+        <span class="date">2018-11-15 09:02:22</span>
+      </p>
+      <p>
+        <span class="read-num">阅读数：15</span>
+      </p>
+      <p>
+        <span class="read-num">评论数：0</span>
+      </p>
+    </div>
+      </div>
+</div>
+    </main>
+    <aside>
+		    <div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://me.csdn.net/andy_5826_liu">
+                <img src="https://avatar.csdn.net/C/D/9/3_andy_5826_liu.jpg" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://me.csdn.net/andy_5826_liu" target="_blank" class="" id="uid">ThinkinLiu</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+                    </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="60">
+                        <dt><a href="https://blog.csdn.net/andy_5826_liu?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/andy_5826_liu?t=1"><span class="count">60</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="2">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">2</span></dd>
+        </dl>
+        <dl class="text-center" title="2">
+            <dt>喜欢</dt>
+            <dd><span class="count">2</span></dd>
+        </dl>
+        <dl class="text-center" title="42">
+            <dt>评论</dt>
+            <dd><span class="count">42</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="2级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-2"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="1799">
+                1799            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="290">
+                290            </dd>
+        </dl>
+        <dl title="303232">
+            <dt>排名：</dt>
+            <dd>30万+</dd>
+        </dl>
+    </div>
+    </div>
+		    <div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <script type="text/javascript" src="//rabc1.iteye.com/common/leh4.js?idmc=jefav"></script>    </div>
+</div>
+		    		    		    <div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8356158">
+                    <span class="title oneline">Android</span>
+                    <span class="count float-right">13篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8356181">
+                    <span class="title oneline">微信小程序</span>
+                    <span class="count float-right">8篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8356195">
+                    <span class="title oneline">机器学习</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8360205">
+                    <span class="title oneline">前端</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8360224">
+                    <span class="title oneline">c++</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8369269">
+                    <span class="title oneline">工具&amp;方法</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/andy_5826_liu/article/category/8400576">
+                    <span class="title oneline">sql</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		    <div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/11">
+                    2018年11月                    <span class="count float-right">30篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/10">
+                    2018年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/08">
+                    2018年8月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/07">
+                    2018年7月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/06">
+                    2018年6月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/05">
+                    2018年5月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/04">
+                    2018年4月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/03">
+                    2018年3月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2018/01">
+                    2018年1月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2017/12">
+                    2017年12月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/andy_5826_liu/article/month/2017/11">
+                    2017年11月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		    <div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/andy_5826_liu/article/details/84075473">机器学习weka，java api调用随机森林及保存模型</a>
+					<p class="read">阅读量：<span>1208</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/andy_5826_liu/article/details/84144205">微信小程序：text文本的展开与收起</a>
+					<p class="read">阅读量：<span>22</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/andy_5826_liu/article/details/84144241">win10点击开始菜单无效？？？定位并彻底解决win10开始菜单及用户功能失效问题</a>
+					<p class="read">阅读量：<span>20</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/andy_5826_liu/article/details/84144193">ImageSpan图片不能居中的问题</a>
+					<p class="read">阅读量：<span>19</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/andy_5826_liu/article/details/84144254">微信小程序：web-view嵌套H5实现微信支付功能解决方案及填坑</a>
+					<p class="read">阅读量：<span>18</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+		    <div id="asideNewComments" class="aside-box">
+    <h3 class="aside-title">最新评论</h3>
+    <div class="aside-content">
+        <ul class="newcomment-list">
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/andy_5826_liu/article/details/84097473#comments">Android--四大组件之Bro...</a>
+                <p class="comment">
+                    <a href="https://my.csdn.net/匿名用户" class="user-name" target="_blank">匿名用户</a>：[表情]                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/andy_5826_liu/article/details/84144241#comments">win10点击开始菜单无效？？？定...</a>
+                <p class="comment">
+                    <a href="https://my.csdn.net/匿名用户" class="user-name" target="_blank">匿名用户</a>：文中的重启电脑改为注销也有效，而且更快捷                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/andy_5826_liu/article/details/84144205#comments">微信小程序：text文本的展开与收起</a>
+                <p class="comment">
+                    <a href="https://my.csdn.net/匿名用户" class="user-name" target="_blank">匿名用户</a>：这个问题之前也有人私信过我，如果根据本文根据行数来判断我也没什么好办法。但是，可以换一种方式，根据...                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/andy_5826_liu/article/details/84144205#comments">微信小程序：text文本的展开与收起</a>
+                <p class="comment">
+                    <a href="https://my.csdn.net/匿名用户" class="user-name" target="_blank">匿名用户</a>：请问一下如果不足三行该如何判断内容是否超出                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/andy_5826_liu/article/details/84144205#comments">微信小程序：text文本的展开与收起</a>
+                <p class="comment">
+                    <a href="https://my.csdn.net/匿名用户" class="user-name" target="_blank">匿名用户</a>：老铁 有个请教下 私信麻烦看下[表情]                </p>
+            </li>
+                    </ul>
+    </div>
+</div>
+		<div id="asideFooter">
+			
+		<div class="aside-box">
+			<script type="text/javascript" src="//rabc1.iteye.com/common/leh4.js?idmc=jefav"></script>		</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask"></div>
+<div class="promptBox clearfix">
+    <div class="title clearfix bottom-dis-16">
+        <span class="float-left">提示</span>
+        <a class="float-right Boxclose">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#csdnc-times"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="text">确定要删除当前文章？</div>
+    <div class="pro-btn float-right">
+        <a class="clickNo">取消</a>
+        <a class="clickYes">删除</a>
+    </div>
+</div>
+<script>
+    var currentPage = 1;
+    var baseUrl = 'https://blog.csdn.net/andy_5826_liu/article/category/8360205' ;
+    var pageSize = 20 ;
+    var listTotal = 1 ;
+    var pageQueryStr = '';
+    function getAllUrl(page) {
+        return baseUrl + "/" + page + pageQueryStr;
+    }
+</script>
+<script src="https://g.csdnimg.cn/login-box/1.0.2/login-box.js?t=1542363472"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201811201455'></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-946dc75567.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/list-150d23d4c1.min.js"></script>
+
+<script>
+    GoTop({
+        right: 8
+    })
+</script>
+<div class="box-box-default">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/mhzzjepzz.js"></script>
+</div>
+<div class="box-box-large">
+    <a class="btn-remove">
+        关闭
+    </a>
+    <script type="text/javascript" src="//cee1.iteye.com/idvveasfs.js"></script>
+</div>
+</body>
+</html>

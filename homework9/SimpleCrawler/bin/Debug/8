@@ -1,0 +1,2772 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/H_hei/article/details/82756207"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <script src="https://csdnimg.cn/release/phoenix/vendor/tingyun/tingyun-rum-blog.js"></script>
+
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>JupyterLab快捷键 - H_hei的博客 - CSDN博客</title>
+
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-4f7f12531a.min.css">
+    
+        
+    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9b39979775.min.css">
+
+    <script type="text/javascript">
+        var username = "H_hei";
+        var blog_address = "https://blog.csdn.net/h_hei";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = true;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/H_hei/article/details/82756207"
+        var blogUrl = "https://blog.csdn.net/";
+        //页面皮肤样式
+        var curSkin = "skin3-template";
+        // 第四范式所需数据
+        var articleTitles = "JupyterLab快捷键 - H_hei的博客";
+        var articleID = "82756207";
+
+        var nickName = "丿回到火星去";
+    </script>
+    <script type="text/javascript">
+        // Traffic Stats of the entire Web site By baidu
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6bcd52f51e9b3dce32bec4a3997715ac";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        // Traffic Stats of the entire Web site By baidu end
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <!-- 新版上报 -->
+    <script src="//g.csdnimg.cn/track/1.1.1/track.js" type="text/javascript"></script>
+    <!-- 新版上报end -->
+            <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<!-- nodata 第三栏接口无数据时样式不变 -->
+<body class="nodata"> 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<script type="text/javascript">
+	// 容错处理
+	var NEWS_FEED = function(){}
+</script>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script type="text/javascript" src="//g.csdnimg.cn/copyright/1.0.3/copyright.js"></script>
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/chart-3456820cac.css" />
+
+
+
+<script src="https://dup.baidustatic.com/js/ds.js"></script>
+<div class="container clearfix" id="mainBox">
+		<div class="recommend-right">
+  <ul class="recommend-fixed-box">
+    
+  </ul>
+</div>
+    <main>
+        <div class="blog-content-box">
+	<div class="article-header-box">
+		<div class="article-header">
+			<div class="article-title-box">
+				<span class="article-type type-1 float-left">原</span>				<h1 class="title-article">JupyterLab快捷键</h1>
+			</div>
+			<div class="article-info-box">
+				<div class="article-bar-top">
+																				<span class="time">2018年09月18日 13:10:44</span>
+					<a class="follow-nickName" href="https://me.csdn.net/H_hei" target="_blank">丿回到火星去</a>
+						<span class="read-count">阅读数：278</span>
+										</div>
+				<div class="operating">
+														</div>
+			</div>
+		</div>
+	</div>
+	<article class="baidu_pl">
+		<div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog"  data-mod=popu_307  data-dsm = "post" >
+								            <div id="content_views" class="markdown_views prism-atom-one-dark">
+							<!-- flowchart 箭头图标 勿删 -->
+							<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg>
+							<p><strong>Jupyter Notebook 有两种键盘输入模式。编辑模式，允许你往单元中键入代码或文本；这时的单元框线是绿色的。命令模式，键盘输入运行程序命令；这时的单元框线是灰色。</strong></p>
+<p><strong>命令模式 (按键 Esc 开启)<br>
+Enter : 转入编辑模式<br>
+Shift-Enter : 运行本单元，选中下个单元<br>
+Ctrl-Enter : 运行本单元<br>
+Alt-Enter : 运行本单元，在其下插入新单元<br>
+Y : 单元转入代码状态<br>
+M :单元转入markdown状态<br>
+R : 单元转入raw状态<br>
+1 : 设定 1 级标题<br>
+2 : 设定 2 级标题<br>
+3 : 设定 3 级标题<br>
+4 : 设定 4 级标题<br>
+5 : 设定 5 级标题<br>
+6 : 设定 6 级标题<br>
+Up : 选中上方单元<br>
+K : 选中上方单元<br>
+Down : 选中下方单元<br>
+J : 选中下方单元<br>
+Shift-K : 扩大选中上方单元<br>
+Shift-J : 扩大选中下方单元<br>
+A : 在上方插入新单元<br>
+B : 在下方插入新单元<br>
+X : 剪切选中的单元<br>
+C : 复制选中的单元<br>
+Shift-V : 粘贴到上方单元<br>
+V : 粘贴到下方单元<br>
+Z : 恢复删除的最后一个单元<br>
+D,D : 删除选中的单元<br>
+Shift-M : 合并选中的单元<br>
+Ctrl-S : 文件存盘<br>
+S : 文件存盘<br>
+L : 转换行号<br>
+O : 转换输出<br>
+Shift-O : 转换输出滚动<br>
+Esc : 关闭页面<br>
+Q : 关闭页面<br>
+H : 显示快捷键帮助<br>
+I,I : 中断Notebook内核<br>
+0,0 : 重启Notebook内核<br>
+Shift : 忽略<br>
+Shift-Space : 向上滚动<br>
+Space : 向下滚动<br>
+编辑模式 ( Enter 键启动)<br>
+Tab : 代码补全或缩进<br>
+Shift-Tab : 提示<br>
+Ctrl-] : 缩进<br>
+Ctrl-[ : 解除缩进<br>
+Ctrl-A : 全选<br>
+Ctrl-Z : 复原<br>
+Ctrl-Shift-Z : 再做<br>
+Ctrl-Y : 再做<br>
+Ctrl-Home : 跳到单元开头<br>
+Ctrl-Up : 跳到单元开头<br>
+Ctrl-End : 跳到单元末尾<br>
+Ctrl-Down : 跳到单元末尾<br>
+Ctrl-Left : 跳到左边一个字首<br>
+Ctrl-Right : 跳到右边一个字首<br>
+Ctrl-Backspace : 删除前面一个字<br>
+Ctrl-Delete : 删除后面一个字<br>
+Esc : 进入命令模式<br>
+Ctrl-M : 进入命令模式<br>
+Shift-Enter : 运行本单元，选中下一单元<br>
+Ctrl-Enter : 运行本单元<br>
+Alt-Enter : 运行本单元，在下面插入一单元<br>
+Ctrl-Shift-- : 分割单元<br>
+Ctrl-Shift-Subtract : 分割单元<br>
+Ctrl-S : 文件存盘<br>
+Shift : 忽略<br>
+Up : 光标上移或转入上一单元<br>
+Down :光标下移或转入下一单元</strong></p>
+<hr>
+
+            </div>
+						<link href="https://csdnimg.cn/release/phoenix/mdeditor/markdown_views-9e5741c4b9.css" rel="stylesheet">
+                </div>
+									<div class="hide-article-box text-center">
+						<a class="btn" id="btn-readmore" data-track-view='{"mod":"popu_376","con":",https://blog.csdn.net/H_hei/article/details/82756207,"}' data-track-click='{"mod":"popu_376","con":",https://blog.csdn.net/H_hei/article/details/82756207,"}'>阅读更多</a>
+					</div>
+					<script>
+						(function(){
+							function setArticleH(btnReadmore,posi){
+								var winH = $(window).height();
+								var articleBox = $("div.article_content");
+								var artH = articleBox.height();
+								if(artH > winH*posi){
+									articleBox.css({
+										'height':winH*posi+'px',
+										'overflow':'hidden'
+									})
+									btnReadmore.click(function(){
+										articleBox.removeAttr("style");
+										$(this).parent().remove();
+									})
+								}else{
+									btnReadmore.parent().remove();
+								}
+							}
+							var btnReadmore = $("#btn-readmore");
+							if(btnReadmore.length>0){
+								if(currentUserName){
+									setArticleH(btnReadmore,3);
+								}else{
+									setArticleH(btnReadmore,1.2);
+								}
+							}
+						})()
+					</script>
+					</article>
+	
+</div>
+<script>
+		$(".MathJax").remove();
+		if($('div.markdown_views pre.prettyprint code.hljs').length > 0 ){
+				$('div.markdown_views')[0].className = 'markdown_views';
+		}
+</script>
+        <div id="dmp_ad_58"><div id="kp_box_58" data-pid="58" data-track-view='{"mod":"kp_popu_58-402","con":",,"}' data-track-click='{"mod":"kp_popu_58-402","con":",,"}'><div style="width:100%;background:#fff;border:3px solid #fff;">
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<div id="three_ad1" class="mediav_ad" ></div>
+<script>
+                                               NEWS_FEED({
+                w: 900,
+                h : 100,
+                showid : 'ztvJV8',
+                placeholderId: "three_ad1",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 0,
+                    imageWidth: 90,
+                    imageHeight: 68,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft YaHei',
+                    paddingTop : 20,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 20,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script>
+<div></div></div>        <a id="commentBox"></a>
+<div class="comment-box">
+	
+	<div class="comment-edit-box d-flex">
+		<a id="commentsedit"></a>
+		<div class="user-img">
+			<a href="javascript:void(0);" target="_blank">
+				<img class="show_loginbox" src="//g.csdnimg.cn/static/user-img/anonymous-User-img.png">
+			</a>
+		</div>
+		<form id="commentform">
+			<input type="hidden" id="comment_replyId">
+			<textarea class="comment-content" name="comment_content" id="comment_content" placeholder="想对作者说点什么"></textarea>
+			<div class="opt-box"> <!-- d-flex -->
+				<div id="ubbtools" class="add_code">
+					<a href="#insertcode" code="code" target="_self"><i class="icon iconfont icon-daima"></i></a>
+				</div>
+				<input type="hidden" id="comment_replyId" name="comment_replyId">
+				<input type="hidden" id="comment_userId" name="comment_userId" value="">
+				<input type="hidden" id="commentId" name="commentId" value="">
+				<div style="display: none;" class="csdn-tracking-statistics tracking-click" data-mod="popu_384"><a href="#" target="_blank" class="comment_area_btn">发表评论</a></div>
+				<div class="dropdown" id="myDrap">
+					<a class="dropdown-face d-flex align-items-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="txt-selected text-truncate">添加代码片</div>
+					<svg class="icon d-block" aria-hidden="true">
+						<use xlink:href="#csdnc-triangledown"></use>
+					</svg>
+					</a>
+					<ul class="dropdown-menu" id="commentCode" aria-labelledby="drop4">
+						<li><a data-code="html">HTML/XML</a></li>
+						<li><a data-code="objc">objective-c</a></li>
+						<li><a data-code="ruby">Ruby</a></li>
+						<li><a data-code="php">PHP</a></li>
+						<li><a data-code="csharp">C</a></li>
+						<li><a data-code="cpp">C++</a></li>
+						<li><a data-code="javascript">JavaScript</a></li>
+						<li><a data-code="python">Python</a></li>
+						<li><a data-code="java">Java</a></li>
+						<li><a data-code="css">CSS</a></li>
+						<li><a data-code="sql">SQL</a></li>
+						<li><a data-code="plain">其它</a></li>
+					</ul>
+				</div>  
+				<div class="right-box">
+					<span id="tip_comment" class="tip">还能输入<em>1000</em>个字符</span>
+					<input type="submit" class="btn btn-sm btn-red btn-comment" value="发表评论">
+				</div>
+			</div>
+		</form>
+	</div>
+
+		<div class="comment-list-container">
+		<a id="comments"></a>
+		<div class="comment-list-box">
+		</div>
+		<div id="commentPage" class="pagination-box d-none"></div>
+		<div class="opt-box text-center">
+			<button class="btn btn-sm btn-link-blue" id="btnMoreComment"></button>
+		</div>
+	</div>
+</div>
+        <div class="recommend-box">
+            		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/lawme/article/details/51034543,BlogCommendFromBaidu_0"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lawme/article/details/51034543,BlogCommendFromBaidu_0"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/lawme/article/details/51034543" target="_blank" title="Jupyter Notebook 的快捷键 - lawme的专栏">
+				<h4 class="text-truncate oneline">
+						Jupyter Notebook 的<em>快捷键</em> - lawme的专栏				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/D/9/3/3_lawme.jpg" alt="lawme" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">lawme</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">04-01</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							8.6万</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/lawme/article/details/51034543" target="_blank" title="Jupyter Notebook 的快捷键 - lawme的专栏">
+							<span class="desc oneline">Jupyter Notebook 的快捷键
+Jupyter Notebook 有两种键盘输入模式。编辑模式，允许你往单元中键入代码或文本；这时的单元框线是绿色的。命令模式，键盘输入运行程序命令；这时...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/lawme">来自：	<span class="blog_title"> lawme的专栏</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/sqq513/article/details/79691018,BlogCommendFromBaidu_1"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/sqq513/article/details/79691018,BlogCommendFromBaidu_1"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/sqq513/article/details/79691018" target="_blank" title="JupyterLab和notebook的使用 - nightttt7">
+				<h4 class="text-truncate oneline">
+						<em>JupyterLab</em>和notebook的使用 - nightttt7				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/4/B/F/3_sqq513.jpg" alt="sqq513" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">sqq513</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-25</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							1911</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/sqq513/article/details/79691018" target="_blank" title="JupyterLab和notebook的使用 - nightttt7">
+							<span class="desc oneline">jupyter notebook在windows上的安装
+
+
+使用jupyter lab可直接安装jupyter lab,可以不安装jupyter notebook
+在CMD中输入
+
+
+
+
+pip i...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/sqq513">来自：	<span class="blog_title"> nightttt7</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/ds19991999/article/details/81275827,BlogCommendFromBaidu_2"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/ds19991999/article/details/81275827,BlogCommendFromBaidu_2"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/ds19991999/article/details/81275827" target="_blank" title="Jupyterlab安装 - ds19991999的博客">
+				<h4 class="text-truncate oneline">
+						<em>Jupyterlab</em>安装 - ds19991999的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/2/C/A/3_ds19991999.jpg" alt="ds19991999" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">ds19991999</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">07-30</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							654</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/ds19991999/article/details/81275827" target="_blank" title="Jupyterlab安装 - ds19991999的博客">
+							<span class="desc oneline">Jupyter小结
+
+具体见个人Python图书馆：https://ds-ebooks.github.io
+
+
+
+安装JupyterLab
+
+使用pip安装：
+
+
+
+pip install jupyt...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/ds19991999">来自：	<span class="blog_title"> ds19991999的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <!-- 第四范式广告开关 -->
+				<div class="p4courset3_target _4paradigm_box recommend-item-box clearfix" ></div>
+				<script>window.p4sdk_enable_recommendBox=true</script>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/m0_37870649/article/details/79453005,BlogCommendFromBaidu_3"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/m0_37870649/article/details/79453005,BlogCommendFromBaidu_3"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/m0_37870649/article/details/79453005" target="_blank" title="jupter使用之一《Jupyter Notebook 的 27 个窍门，技巧和快捷键》 - m0_37870649的博客">
+				<h4 class="text-truncate oneline">
+						jupter使用之一《Jupyter Notebook 的 27 个窍门，技巧和<em>快捷键</em>》 - m0_37870649的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/7/E/6/3_m0_37870649.jpg" alt="m0_37870649" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">m0_37870649</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-06</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							4264</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/m0_37870649/article/details/79453005" target="_blank" title="jupter使用之一《Jupyter Notebook 的 27 个窍门，技巧和快捷键》 - m0_37870649的博客">
+							<span class="desc oneline">Jupyter Notebook 的 27 个窍门，技巧和快捷键大数据文摘作品，转载具体要求见文末翻译 | 姜范波   校对 | 毛丽 &amp;amp;amp; 寒小阳Jupyther notebook ,...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/m0_37870649">来自：	<span class="blog_title"> m0_37870649的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/sinat_34704593/article/details/83628841,BlogCommendESEnWordWeight_4"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/sinat_34704593/article/details/83628841,BlogCommendESEnWordWeight_4"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/sinat_34704593/article/details/83628841" target="_blank" title="jupyter学习第二篇：常用的快捷键 - sinat_34704593的博客">
+				<h4 class="text-truncate oneline">
+						jupyter学习第二篇：常用的<em>快捷键</em> - sinat_34704593的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/D/4/0/3_sinat_34704593.jpg" alt="sinat_34704593" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">sinat_34704593</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">11-01</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							14</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/sinat_34704593/article/details/83628841" target="_blank" title="jupyter学习第二篇：常用的快捷键 - sinat_34704593的博客">
+							<span class="desc oneline">a: 代表在前一行插入
+
+b: 代表在后一行插入
+
+dd:代表删除当前行
+
+ctrl+enter:运行
+
+shift+enter:运行并移至下一行，如果下一行不存在，则自动创建下一行且聚焦
+
+alt+...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/sinat_34704593">来自：	<span class="blog_title"> sinat_34704593的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/icehui2012/article/details/54834812,BlogCommendESEnWordWeight_5"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/icehui2012/article/details/54834812,BlogCommendESEnWordWeight_5"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/icehui2012/article/details/54834812" target="_blank" title="jupyter的快捷键备忘 - icehui2012的博客">
+				<h4 class="text-truncate oneline">
+						jupyter的<em>快捷键</em>备忘 - icehui2012的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/C/3/8/3_icehui2012.jpg" alt="icehui2012" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">icehui2012</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">02-02</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							218</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/icehui2012/article/details/54834812" target="_blank" title="jupyter的快捷键备忘 - icehui2012的博客">
+							<span class="desc oneline">The following are the keyboard shortcuts for an IPython Notebook. Learning to use these will help sp...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/icehui2012">来自：	<span class="blog_title"> icehui2012的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/Greenovia/article/details/74388877,BlogCommendESEnWordWeight_6"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Greenovia/article/details/74388877,BlogCommendESEnWordWeight_6"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/Greenovia/article/details/74388877" target="_blank" title="Jupyterlab开发小指南 - Greenovia的博客">
+				<h4 class="text-truncate oneline">
+						<em>Jupyterlab</em>开发小指南 - Greenovia的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/0/3/2/3_greenovia.jpg" alt="Greenovia" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">Greenovia</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">07-05</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							1.4万</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/Greenovia/article/details/74388877" target="_blank" title="Jupyterlab开发小指南 - Greenovia的博客">
+							<span class="desc oneline">因工作需要，最近开始学习jupyterlab的开发。 
+目前使用jupyterlab的人还不是很多，基于jupyterlab来做开发的人就更寥寥无几了，所以遇到了很多坑，有些解决了，有些还遗留着。 
+...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/Greenovia">来自：	<span class="blog_title"> Greenovia的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/kMD8d5R/article/details/81230551,searchFromBaidu_7"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/kMD8d5R/article/details/81230551,searchFromBaidu_7"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/kMD8d5R/article/details/81230551" target="_blank" title="jupyterLab+R，让你更优雅的探索数据 - R语言中文社区">
+				<h4 class="text-truncate oneline">
+						<em>jupyterLab</em>+R，让你更优雅的探索数据 - R语言中文社区				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/1/E/3/3_kmd8d5r.jpg" alt="kMD8d5R" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">kMD8d5R</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">07-26</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							370</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/kMD8d5R/article/details/81230551" target="_blank" title="jupyterLab+R，让你更优雅的探索数据 - R语言中文社区">
+							<span class="desc oneline">
+  
+    
+                    
+
+                    
+
+                    
+                    
+     ...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/kMD8d5R">来自：	<span class="blog_title"> R语言中文社区</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_60" data-pid="60" data-track-view='{"mod":"kp_popu_60-43","con":",,"}' data-track-click='{"mod":"kp_popu_60-43","con":",,"}'><div id="three_ad8" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 900,
+                h : 84,
+                showid : 'Afihld',
+                placeholderId: "three_ad8",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 10,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/u013496295/6857189,searchFromBaidu_8"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/u013496295/6857189,searchFromBaidu_8"}'>
+		<a href="https://download.csdn.net/download/u013496295/6857189" target="_blank">
+			<h4 class="text-truncate oneline">
+					lab view教程			</h4>
+			<div class="info-box d-flex align-content-center">
+				<p>
+									<span class="read-num">下载</span>
+								</p>
+				<p>
+					<span class="date">01-17</span>
+				</p>
+			</div>
+			<p class="content oneline">
+					清华大学的lab vew教程，内容详实，供初学者使用			</p>
+		</a>
+
+	</div>
+	
+    
+			<div class="recommend-item-box type_hot_word">
+						<div class="content clearfix oneline">
+				<h5 class="float-left">文章热词</h5>
+				<div class="word float-left">
+													<span>
+						<a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+						机器学习					</a></span>
+																	<span>
+						<a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+						机器学习课程					</a></span>
+																	<span>
+						<a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+						机器学习教程					</a></span>
+																	<span>
+						<a href="https://edu.csdn.net/combos/o5329_s5331_l0_t " target="_blank">
+						深度学习视频教程					</a></span>
+																	<span>
+						<a href="https://edu.csdn.net/combos/o5329_s5331_l0_t " target="_blank">
+						深度学习学习					</a></span>
+												</div>
+			</div>
+									<div class="content clearfix oneline">
+				<h5 class="float-left">相关热词</h5>
+				<div class="float-left">
+									<span>
+						<a href="https://www.csdn.net/gather_2f/NtzacgzsNDMxLWJsb2cO0O0O.html" target="_blank">
+						dreamweaver 快捷键</a>
+					</span>
+									<span>
+						<a href="https://www.csdn.net/gather_25/NtzacgzsNjQ4LWJsb2cO0O0O.html" target="_blank">
+						dreamweaver2017快捷键</a>
+					</span>
+									<span>
+						<a href="https://www.csdn.net/gather_29/MtTaggxsMDEtYmxvZwO0O0OO0O0O.html" target="_blank">
+						c# 设置快捷键</a>
+					</span>
+									<span>
+						<a href="https://www.csdn.net/gather_27/MtjaIgysNDktYmxvZwO0O0OO0O0O.html" target="_blank">
+						c#断点调试快捷键</a>
+					</span>
+									<span>
+						<a href="https://www.csdn.net/gather_23/MtjaMg2sMjktYmxvZwO0O0OO0O0O.html" target="_blank">
+						c# 右键菜单快捷键</a>
+					</span>
+								</div>
+			</div>
+					</div>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/mr_cookies/article/details/78063722,searchFromBaidu_9"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/mr_cookies/article/details/78063722,searchFromBaidu_9"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/mr_cookies/article/details/78063722" target="_blank" title="Jupyter 常用快捷键 及 常用方法笔记 - mr_cookies的博客">
+				<h4 class="text-truncate oneline">
+						Jupyter 常用<em>快捷键</em> 及 常用方法笔记 - mr_cookies的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/F/0/4/3_mr_cookies.jpg" alt="mr_cookies" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">mr_cookies</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">09-22</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							4898</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/mr_cookies/article/details/78063722" target="_blank" title="Jupyter 常用快捷键 及 常用方法笔记 - mr_cookies的博客">
+							<span class="desc oneline">原文链接：http://www.cnblogs.com/billvvv/p/7065885.html
+
+
+
+
+两个不同的cell有上下的关系, 不是完全独立的, 下图可以看出下面的res是引...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/mr_cookies">来自：	<span class="blog_title"> mr_cookies的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+            <div class="recommend-item-box blog-expert-recommend-box">
+			<div class="d-flex">
+				<div class="blog-expert-recommend">
+					<div class="blog-expert">
+						<div class="blog-expert-flexbox"></div>
+					</div>
+				</div>
+				<div class="blog-expert-load-new" data-index="3">
+					<svg version="1.1" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+					<path d="M142.5,57.5c-1.3-1.2-2.1-3.3-2.1-5.4c0-4.2,3.3-7.5,7.5-7.5h19.6c4.2,0,7.5,3.3,7.5,7.5s-3.3,7.5-7.5,7.5h-4.2
+						C170.8,71.2,175,85,175,100c0,41.7-33.8,75-75,75c-4.2,0-7.5-3.3-7.5-7.5c0-4.2,3.3-7.5,7.5-7.5c33.3,0,60-27.1,60-60
+						C160,83.7,153.8,68.7,142.5,57.5L142.5,57.5z M57.5,142.5c1.2,1.2,2.1,3.3,2.1,5.4c0,4.2-3.3,7.5-7.5,7.5H32.5
+						c-4.2,0-7.5-3.3-7.5-7.5c0-4.2,3.3-7.5,7.5-7.5h4.2C29.2,128.8,25,115,25,100c0-41.7,33.7-75,75-75c4.2,0,7.5,3.3,7.5,7.5
+						S104.2,40,100,40c-33.3,0-60,27.1-60,60C40,116.2,46.2,131.2,57.5,142.5z"/>
+					</svg>
+					<span>换一批</span>
+				</div>
+			</div>
+        </div>
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_39622065/article/details/81432254,searchFromBaidu_10"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_39622065/article/details/81432254,searchFromBaidu_10"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/qq_39622065/article/details/81432254" target="_blank" title="jupyter快捷键 - 天上掉下两毛钱">
+				<h4 class="text-truncate oneline">
+						jupyter<em>快捷键</em> - 天上掉下两毛钱				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/E/2/2/3_qq_39622065.jpg" alt="qq_39622065" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">qq_39622065</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">08-05</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							78</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/qq_39622065/article/details/81432254" target="_blank" title="jupyter快捷键 - 天上掉下两毛钱">
+							<span class="desc oneline">转自大佬的博客
+
+用途：方便个人用来查阅
+
+1.Jupyter Notebook服务启动与停止
+
+环境为Windows10系统
+
+首先进入命令提示符cmd，用cd命令切换到工作目录，这里不做详细解释，...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/qq_39622065">来自：	<span class="blog_title"> 天上掉下两毛钱</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/code_game/article/details/60977255,searchFromBaidu_11"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/code_game/article/details/60977255,searchFromBaidu_11"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/code_game/article/details/60977255" target="_blank" title="JupyterLab使用笔记 - code_game的博客">
+				<h4 class="text-truncate oneline">
+						<em>JupyterLab</em>使用笔记 - code_game的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/B/9/7/3_code_game.jpg" alt="code_game" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">code_game</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-09</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							4614</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/code_game/article/details/60977255" target="_blank" title="JupyterLab使用笔记 - code_game的博客">
+							<span class="desc oneline">Github JupyterLab
+1. 启动JupyterLab
+2.设置密码登录</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/code_game">来自：	<span class="blog_title"> code_game的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_38382105/article/details/79636397,BlogCommendFromQuerySearch_12"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_38382105/article/details/79636397,BlogCommendFromQuerySearch_12"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/weixin_38382105/article/details/79636397" target="_blank" title="数据科学笔记本变得真实了：JupyterLab已面向用户发行 - 首席IT民工的博客">
+				<h4 class="text-truncate oneline">
+						数据科学笔记本变得真实了：<em>JupyterLab</em>已面向用户发行 - 首席IT民工的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/0/4/E/3_weixin_38382105.jpg" alt="weixin_38382105" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">weixin_38382105</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-21</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							5843</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/weixin_38382105/article/details/79636397" target="_blank" title="数据科学笔记本变得真实了：JupyterLab已面向用户发行 - 首席IT民工的博客">
+							<span class="desc oneline">作者：Andrew Brust原文地址：http://www.zdnet.com/article/can-data-science-notebooks-get-real-jupyter-lab-rel...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/weixin_38382105">来自：	<span class="blog_title"> 首席IT民工的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_61" data-pid="61" data-track-view='{"mod":"kp_popu_61-557","con":",,"}' data-track-click='{"mod":"kp_popu_61-557","con":",,"}'><div id="three_ad13" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad13",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/bai_yicn/10496421,BlogCommendFromQuerySearch_13"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/bai_yicn/10496421,BlogCommendFromQuerySearch_13"}'>
+			<a href="https://download.csdn.net/download/bai_yicn/10496421" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							<em>jupyterlab</em>						</h4>
+						<span class="data float-right">06-24</span>
+					</div>
+					<div class="desc oneline">
+							jupyterlab,新一代的python开发工具IDE,完全支持各类浏览器					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/caroline_12/article/details/80008009,BlogCommendFromQuerySearch_14"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/caroline_12/article/details/80008009,BlogCommendFromQuerySearch_14"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/caroline_12/article/details/80008009" target="_blank" title="jupyter lab的初步使用 - caroline_12的博客">
+				<h4 class="text-truncate oneline">
+						jupyter lab的初步使用 - caroline_12的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/2/C/D/3_caroline_12.jpg" alt="caroline_12" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">caroline_12</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">04-19</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							525</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/caroline_12/article/details/80008009" target="_blank" title="jupyter lab的初步使用 - caroline_12的博客">
+							<span class="desc oneline">原文链接：https://www.jianshu.com/p/90982d195160 也是我的账号~前几天上课老师提到jupyter lab这个jupyter notebook的提升版本，就兴致勃勃...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/caroline_12">来自：	<span class="blog_title"> caroline_12的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/82752652,BlogCommendFromQuerySearch_15"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/82752652,BlogCommendFromQuerySearch_15"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/ChenVast/article/details/82752652" target="_blank" title="【Jupyter】JupyterLab安装插件失败 - 探索世界，改变世界">
+				<h4 class="text-truncate oneline">
+						【Jupyter】<em>JupyterLab</em>安装插件失败 - 探索世界，改变世界				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/C/0/9/3_chenvast.jpg" alt="ChenVast" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">ChenVast</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">09-18</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							319</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/ChenVast/article/details/82752652" target="_blank" title="【Jupyter】JupyterLab安装插件失败 - 探索世界，改变世界">
+							<span class="desc oneline">使用安装插件的命令后报错
+
+ 
+
+命令：
+
+jupyter-lab.exe build 或 安装相关插件的命令
+
+ 
+
+报错内容：
+
+[LabBuildApp] JupyterLab 0.34.1
+[...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/ChenVast">来自：	<span class="blog_title"> 探索世界，改变世界</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/82998705,BlogCommendFromQuerySearch_16"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/82998705,BlogCommendFromQuerySearch_16"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/ChenVast/article/details/82998705" target="_blank" title="【JupyterLab】发现JupyterLab的一个优化点，提升JupyterLab的性能。 - 探索世界，改变世界">
+				<h4 class="text-truncate oneline">
+						【<em>JupyterLab</em>】发现<em>JupyterLab</em>的一个优化点，提升<em>JupyterLab</em>的性能。 - 探索世界，改变世界				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/C/0/9/3_chenvast.jpg" alt="ChenVast" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">ChenVast</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">10-10</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							188</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/ChenVast/article/details/82998705" target="_blank" title="【JupyterLab】发现JupyterLab的一个优化点，提升JupyterLab的性能。 - 探索世界，改变世界">
+							<span class="desc oneline">浏览器试验
+
+环境
+
+系统：Windows 10 
+
+JupyterLab：V0.35
+
+Chrome：V69
+
+Firefox：V62
+
+ 
+
+Chrome
+
+打开NoteBook性能：
+
+一个1....</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/ChenVast">来自：	<span class="blog_title"> 探索世界，改变世界</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/aerchi/article/details/7208890,searchFromBaidu_17"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/aerchi/article/details/7208890,searchFromBaidu_17"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/aerchi/article/details/7208890" target="_blank" title="jdbc数据库连接失败  java.net.SocketException: Malformed reply from SOCKS - 乐意黎 - Aerchi.com 大杂汇">
+				<h4 class="text-truncate oneline">
+						jdbc数据库连接失败  java.net.SocketException: Malformed reply from SOCKS - 乐意黎 - Aerchi.com 大杂汇				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/D/A/B/3_aerchi.jpg" alt="aerchi" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">aerchi</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">01-18</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							2763</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/aerchi/article/details/7208890" target="_blank" title="jdbc数据库连接失败  java.net.SocketException: Malformed reply from SOCKS - 乐意黎 - Aerchi.com 大杂汇">
+							<span class="desc oneline">jdbc数据库连接失败 Malformed reply from SOCKS server
+当IE设置有SOCKS(套接字)代理时，NetBeans Java Desktop Application...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/aerchi">来自：	<span class="blog_title"> 乐意黎 - Aerchi.com 大杂汇</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_62" data-pid="62" data-track-view='{"mod":"kp_popu_62-556","con":",,"}' data-track-click='{"mod":"kp_popu_62-556","con":",,"}'><div id="three_ad18" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad18",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/sqq513/article/details/80028675,BlogCommendFromQuerySearch_18"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/sqq513/article/details/80028675,BlogCommendFromQuerySearch_18"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/sqq513/article/details/80028675" target="_blank" title="在centos7上搭建jupyter lab服务器 - nightttt7">
+				<h4 class="text-truncate oneline">
+						在centos7上搭建jupyter lab服务器 - nightttt7				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/4/B/F/3_sqq513.jpg" alt="sqq513" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">sqq513</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">04-21</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							372</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/sqq513/article/details/80028675" target="_blank" title="在centos7上搭建jupyter lab服务器 - nightttt7">
+							<span class="desc oneline">购买服务器
+
+选择centos7操作系统
+
+安装jupyter lab
+
+
+安装setuptools
+
+
+
+
+wget https://bootstrap.pypa.io/ez_setup.py -O...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/sqq513">来自：	<span class="blog_title"> nightttt7</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/ds19991999/article/details/83663349,BlogCommendFromQuerySearch_19"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/ds19991999/article/details/83663349,BlogCommendFromQuerySearch_19"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/ds19991999/article/details/83663349" target="_blank" title="云服务器搭建神器JupyterLab（多图） - ds19991999的博客">
+				<h4 class="text-truncate oneline">
+						云服务器搭建神器<em>JupyterLab</em>（多图） - ds19991999的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/2/C/A/3_ds19991999.jpg" alt="ds19991999" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">ds19991999</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">11-03</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							49</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/ds19991999/article/details/83663349" target="_blank" title="云服务器搭建神器JupyterLab（多图） - ds19991999的博客">
+							<span class="desc oneline">云服务器搭建神器JupyterLab（多图）
+
+JupyterLab是一个交互式的开发环境，其用于应对包含着notebook、代码以及数据的工作场景。
+
+
+1、前言
+如果说vim是编辑器之神，那么Ju...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/ds19991999">来自：	<span class="blog_title"> ds19991999的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/xingyuzhe/article/details/79490687,BlogCommendFromQuerySearch_20"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/xingyuzhe/article/details/79490687,BlogCommendFromQuerySearch_20"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/xingyuzhe/article/details/79490687" target="_blank" title="Python多版本安装与Jupyter Lab使用 - xingyuzhe的博客">
+				<h4 class="text-truncate oneline">
+						Python多版本安装与Jupyter Lab使用 - xingyuzhe的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/5/D/E/3_xingyuzhe.jpg" alt="xingyuzhe" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">xingyuzhe</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-08</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							2561</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/xingyuzhe/article/details/79490687" target="_blank" title="Python多版本安装与Jupyter Lab使用 - xingyuzhe的博客">
+							<span class="desc oneline">1.Python2与3版本同时安装(1)下载2和3版本的安装包，分别安装至Python27和Python36目录(2)环境变量配置    分别配置27版本和36版本的根目录以及Scripts目录(3)...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/xingyuzhe">来自：	<span class="blog_title"> xingyuzhe的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/blueheart20/article/details/79745356,BlogCommendFromQuerySearch_21"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/blueheart20/article/details/79745356,BlogCommendFromQuerySearch_21"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/blueheart20/article/details/79745356" target="_blank" title="JuypterLab简明教程 - 木小鱼的笔记">
+				<h4 class="text-truncate oneline">
+						JuypterLab简明教程 - 木小鱼的笔记				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/7/5/5/3_blueheart20.jpg" alt="blueheart20" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">blueheart20</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">03-29</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							1335</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/blueheart20/article/details/79745356" target="_blank" title="JuypterLab简明教程 - 木小鱼的笔记">
+							<span class="desc oneline">JuypterLab
+
+Jupyter Lab究竟有哪些新的特性让整个Python业界如此兴奋呢？
+
+
+IDE 
+它是一个名副其实的IDE，且是一个基于网页的IDE（保留了全部的notebook特性）...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/blueheart20">来自：	<span class="blog_title"> 木小鱼的笔记</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/81531882,BlogCommendFromQuerySearch_22"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/ChenVast/article/details/81531882,BlogCommendFromQuerySearch_22"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/ChenVast/article/details/81531882" target="_blank" title="【机器学习】24个终极项目提升您的机器学习知识和技能 - 探索世界，改变世界">
+				<h4 class="text-truncate oneline">
+						【机器学习】24个终极项目提升您的机器学习知识和技能 - 探索世界，改变世界				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/C/0/9/3_chenvast.jpg" alt="ChenVast" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">ChenVast</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">08-09</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							479</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/ChenVast/article/details/81531882" target="_blank" title="【机器学习】24个终极项目提升您的机器学习知识和技能 - 探索世界，改变世界">
+							<span class="desc oneline">介绍
+
+数据科学项目为您提供了一个有前途的方式来启动您在该领域的职业生涯。您不仅可以通过应用来学习数据科学，还可以在简历中展示项目！如今，招聘人员通过他/她的工作来评估候选人的潜力，而不是非常重视认证...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/ChenVast">来自：	<span class="blog_title"> 探索世界，改变世界</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_63" data-pid="63" data-track-view='{"mod":"kp_popu_63-555","con":",,"}' data-track-click='{"mod":"kp_popu_63-555","con":",,"}'><div id="three_ad23" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad23",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_28289369/article/details/82834478,BlogCommendFromQuerySearch_23"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_28289369/article/details/82834478,BlogCommendFromQuerySearch_23"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/qq_28289369/article/details/82834478" target="_blank" title="关于anaconda环境下如何安装tensorflow - qq_28289369的博客">
+				<h4 class="text-truncate oneline">
+						关于anaconda环境下如何安装tensorflow - qq_28289369的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/8/C/4/3_qq_28289369.jpg" alt="qq_28289369" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">qq_28289369</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">09-25</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							68</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/qq_28289369/article/details/82834478" target="_blank" title="关于anaconda环境下如何安装tensorflow - qq_28289369的博客">
+							<span class="desc oneline">不少博主在anaconda环境下安装各种包，貌似都是在命令行里进行管理安装的，每次都在一个黑框里输入各种指令，又难记又变态！！简直丧心病狂！！！！
+
+ 
+
+ 
+
+
+
+如上图这样的黑框框，输入各种con...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/qq_28289369">来自：	<span class="blog_title"> qq_28289369的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_41770169/article/details/80801782,BlogCommendFromQuerySearch_24"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_41770169/article/details/80801782,BlogCommendFromQuerySearch_24"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/weixin_41770169/article/details/80801782" target="_blank" title="graphlab canvas设置后，.show没有任何显示 - weixin_41770169的博客">
+				<h4 class="text-truncate oneline">
+						graphlab canvas设置后，.show没有任何显示 - weixin_41770169的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/2/C/F/3_weixin_41770169.jpg" alt="weixin_41770169" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">weixin_41770169</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">06-25</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							168</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/weixin_41770169/article/details/80801782" target="_blank" title="graphlab canvas设置后，.show没有任何显示 - weixin_41770169的博客">
+							<span class="desc oneline">graphlab create中为了显示图表，设置canvas后，show没有任何反馈：
+
+
+graphlab.canvas.set_target('ipynb')
+products['name']....</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/weixin_41770169">来自：	<span class="blog_title"> weixin_41770169的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/lp8800/article/details/83002726,BlogCommendFromQuerySearch_25"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lp8800/article/details/83002726,BlogCommendFromQuerySearch_25"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/lp8800/article/details/83002726" target="_blank" title="Anaconda修改JupyterNotebook默认目录为任意指定目录 - 時を越える笑顔">
+				<h4 class="text-truncate oneline">
+						Anaconda修改JupyterNotebook默认目录为任意指定目录 - 時を越える笑顔				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/4/0/C/3_lp8800.jpg" alt="lp8800" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">lp8800</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">10-10</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							40</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/lp8800/article/details/83002726" target="_blank" title="Anaconda修改JupyterNotebook默认目录为任意指定目录 - 時を越える笑顔">
+							<span class="desc oneline">由于最近开始学习机器学习有关的一些基础，比如Python和概率论，需要一个得力的助手，于是发现了Anaconda这一整套工具包。其中Jupyter Notebook是个非常好用的IPython工具，既...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/lp8800">来自：	<span class="blog_title"> 時を越える笑顔</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/u014131968/article/details/80542446,BlogCommendFromQuerySearch_26"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u014131968/article/details/80542446,BlogCommendFromQuerySearch_26"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/u014131968/article/details/80542446" target="_blank" title="terminal命令笔记 (2) - u014131968的博客">
+				<h4 class="text-truncate oneline">
+						terminal命令笔记 (2) - u014131968的博客				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/3/3/0/3_u014131968.jpg" alt="u014131968" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">u014131968</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">06-01</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							74</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/u014131968/article/details/80542446" target="_blank" title="terminal命令笔记 (2) - u014131968的博客">
+							<span class="desc oneline">#找出当前目录及其子目录下的文件，以opencv文件名开头#找出当前目录（不包括子目录）下所有名字中以opencv开头的文件find . -name 'opencv*'find . -name 'op...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/u014131968">来自：	<span class="blog_title"> u014131968的博客</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/mmc2015/article/details/52439212,BlogCommendFromQuerySearch_27"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/mmc2015/article/details/52439212,BlogCommendFromQuerySearch_27"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/mmc2015/article/details/52439212" target="_blank" title="jupyter远程访问的两种方法 - mmc2015的专栏">
+				<h4 class="text-truncate oneline">
+						jupyter远程访问的两种方法 - mmc2015的专栏				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/A/3/0/3_mmc2015.jpg" alt="mmc2015" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">mmc2015</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">09-05</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							1.3万</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/mmc2015/article/details/52439212" target="_blank" title="jupyter远程访问的两种方法 - mmc2015的专栏">
+							<span class="desc oneline">方法一：直接使用命令：jupyter notebook --ip=10.*.*.*（本机ip）然后配置代理即可。访问：http://10.*.*.*:8888/tree/坏处：命令“ jupyter ...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/mmc2015">来自：	<span class="blog_title"> mmc2015的专栏</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_64" data-pid="64" data-track-view='{"mod":"kp_popu_64-81","con":",,"}' data-track-click='{"mod":"kp_popu_64-81","con":",,"}'><div id="three_ad28" class="mediav_ad" ></div>
+<script type="text/javascript" src="//static.mediav.com/js/mvf_news_feed.js"></script>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad28",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_41042404/article/details/81876076,BlogCommendFromQuerySearch_28"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_41042404/article/details/81876076,BlogCommendFromQuerySearch_28"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/weixin_41042404/article/details/81876076" target="_blank" title="学习笔记(二）：使用 TensorFlow 的起始步骤(First Steps with TensorFlow) - Overloveflow">
+				<h4 class="text-truncate oneline">
+						学习笔记(二）：使用 TensorFlow 的起始步骤(First Steps with TensorFlow) - Overloveflow				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/E/9/5/3_weixin_41042404.jpg" alt="weixin_41042404" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">weixin_41042404</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">08-21</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							149</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/weixin_41042404/article/details/81876076" target="_blank" title="学习笔记(二）：使用 TensorFlow 的起始步骤(First Steps with TensorFlow) - Overloveflow">
+							<span class="desc oneline">目录
+
+1.工具包
+
+TensorFlow
+
+张量 (Tensor)
+
+图 (graph)
+
+TensorBoard
+
+2.tf.estimator API
+
+Estimator
+
+预创建的 Esti...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/weixin_41042404">来自：	<span class="blog_title"> Overloveflow</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/yun520529/2235397,BlogCommendFromQuerySearch_29"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/yun520529/2235397,BlogCommendFromQuerySearch_29"}'>
+			<a href="https://download.csdn.net/download/yun520529/2235397" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							xp常用 <em>快捷键</em>  合集						</h4>
+						<span class="data float-right">04-13</span>
+					</div>
+					<div class="desc oneline">
+							快捷键快捷键快捷键快捷键快捷键快捷键快捷键快捷键快捷键快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/cclethe/article/details/78583720,BlogCommendFromQuerySearch_30"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/cclethe/article/details/78583720,BlogCommendFromQuerySearch_30"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/cclethe/article/details/78583720" target="_blank" title="ipython notebook 修改一开始打开的文件夹路径 - czw">
+				<h4 class="text-truncate oneline">
+						ipython notebook 修改一开始打开的文件夹路径 - czw				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/D/8/B/3_cclethe.jpg" alt="cclethe" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">cclethe</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">11-20</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							364</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/cclethe/article/details/78583720" target="_blank" title="ipython notebook 修改一开始打开的文件夹路径 - czw">
+							<span class="desc oneline">ipython notebook 修改一开始打开的文件夹路径
+
+
+
+1. 首先输出配置文件
+
+
+
+cd D:\Program\x64\anaconda\Anaconda3#找到anaconda安装路径...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/cclethe">来自：	<span class="blog_title"> czw</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    		<div class="recommend-item-box recommend-box-ident type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/zll0_0/article/details/82284584,BlogCommendFromQuerySearch_31"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zll0_0/article/details/82284584,BlogCommendFromQuerySearch_31"}'>
+			<div class="content">
+				<a href="https://blog.csdn.net/zll0_0/article/details/82284584" target="_blank" title="用批处理文件启动jupyter-notebook - zll0_0的专栏">
+				<h4 class="text-truncate oneline">
+						用批处理文件启动jupyter-notebook - zll0_0的专栏				</h4>
+				<div class="info-box d-flex align-content-center">
+					<!-- <p class="avatar">
+							<img src="https://avatar.csdn.net/9/E/A/3_zll0_0.jpg" alt="zll0_0" class="avatar-pic">
+							<span class="namebox">
+								<span class="name">zll0_0</span>
+								<span class="triangle"></span>
+							</span>
+					</p> -->
+					<p class="date-and-readNum">
+						<span class="date hover-show">09-01</span>
+						<span class="read-num hover-hide">
+							<svg class="icon csdnc-yuedushu" aria-hidden="true">
+								<use xlink:href="#csdnc-m-passwords-visible"></use>
+							</svg>
+							48</span>
+						</p>
+					</div>
+				</a>
+					<p class="content">
+						<a href="https://blog.csdn.net/zll0_0/article/details/82284584" target="_blank" title="用批处理文件启动jupyter-notebook - zll0_0的专栏">
+							<span class="desc oneline">批处理文件只需一行就可以直接启动jupyter-notebook，例如启动并设置工作目录为d:\myNotesl：
+
+jupyter-notebook d:\myNotesl...</span>
+						</a>
+                        						<span class="blog_title_box oneline"><a target="_blank" href="https://blog.csdn.net/zll0_0">来自：	<span class="blog_title"> zll0_0的专栏</span></a></span>
+                        					</p>
+			</div>
+					</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/mhcrazy/1932313,BlogCommendFromQuerySearch_32"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/mhcrazy/1932313,BlogCommendFromQuerySearch_32"}'>
+			<a href="https://download.csdn.net/download/mhcrazy/1932313" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							SolidWorks<em>快捷键</em>						</h4>
+						<span class="data float-right">12-24</span>
+					</div>
+					<div class="desc oneline">
+							快捷键快捷键
+快捷键
+快捷键
+快捷键
+快捷键
+快捷键
+快捷键
+快捷键
+快捷键
+快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_65" data-pid="65" data-track-view='{"mod":"kp_popu_65-84","con":",,"}' data-track-click='{"mod":"kp_popu_65-84","con":",,"}'><div id="three_ad33" class="mediav_ad" ></div>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'GNKXx7',
+                placeholderId: "three_ad33",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/lxftc6534/3563675,BlogCommendFromQuerySearch_33"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/lxftc6534/3563675,BlogCommendFromQuerySearch_33"}'>
+			<a href="https://download.csdn.net/download/lxftc6534/3563675" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							MyEclipse<em>快捷键</em>MyEclipse<em>快捷键</em>						</h4>
+						<span class="data float-right">08-31</span>
+					</div>
+					<div class="desc oneline">
+							MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷键MyEclipse快捷...					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/adam_zheng/3406745,BlogCommendFromQuerySearch_34"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/adam_zheng/3406745,BlogCommendFromQuerySearch_34"}'>
+			<a href="https://download.csdn.net/download/adam_zheng/3406745" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							C#<em>快捷键</em>大全.txt						</h4>
+						<span class="data float-right">06-30</span>
+					</div>
+					<div class="desc oneline">
+							C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键C#快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/cjy1989/3212026,BlogCommendFromQuerySearch_35"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/cjy1989/3212026,BlogCommendFromQuerySearch_35"}'>
+			<a href="https://download.csdn.net/download/cjy1989/3212026" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							cad技巧 常用的常用的常用的常用的常用的						</h4>
+						<span class="data float-right">04-21</span>
+					</div>
+					<div class="desc oneline">
+							cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键cad快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/guanbiao33/3575526,BlogCommendFromQuerySearch_36"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/guanbiao33/3575526,BlogCommendFromQuerySearch_36"}'>
+			<a href="https://download.csdn.net/download/guanbiao33/3575526" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							VC<em>快捷键</em>详细内容全						</h4>
+						<span class="data float-right">09-05</span>
+					</div>
+					<div class="desc oneline">
+							VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键VC快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/diabatic/698798,BlogCommendFromQuerySearch_37"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/diabatic/698798,BlogCommendFromQuerySearch_37"}'>
+			<a href="https://download.csdn.net/download/diabatic/698798" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							myeclipse<em>快捷键</em> - diabatic						</h4>
+						<span class="data float-right">10-18</span>
+					</div>
+					<div class="desc oneline">
+							myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键myeclipse快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_66" data-pid="66" data-track-view='{"mod":"kp_popu_66-87","con":",,"}' data-track-click='{"mod":"kp_popu_66-87","con":",,"}'><div id="three_ad38" class="mediav_ad" ></div>
+<script>
+                                               NEWS_FEED({
+                w: 852,
+                h : 60,
+                showid : 'Afihld',
+                placeholderId: "three_ad38",
+                inject : 'define',
+                define : {
+                    imagePosition : 'left',
+                    imageBorderRadius : 3,
+                    imageWidth: 90,
+                    imageHeight: 60,
+                    imageFill : 'clip',
+                    displayImage : true,
+                    displayTitle : true,
+                    titleFontSize: 18,
+                    titleFontColor: '#000',
+                    titleFontFamily : 'Lato,-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif',
+                    titleFontWeight: 'bold',
+                    titlePaddingTop : 0,
+                    titlePaddingRight : 0,
+                    titlePaddingBottom : 5,
+                    titlePaddingLeft : 16,
+                    displayDesc : true,
+                    descFontSize: 14,
+                    descFontColor: '#8e959a',
+                    descFontFamily : 'Microsoft Yahei',
+                    paddingTop : 0,
+                    paddingRight : 0,
+                    paddingBottom : 0,
+                    paddingLeft : 0,
+                    backgroundColor: '#fff',
+                    hoverColor: '#000'
+                      }
+                  })
+                                        </script></div></div>
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/hbhmao/652330,BlogCommendFromQuerySearch_38"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/hbhmao/652330,BlogCommendFromQuerySearch_38"}'>
+			<a href="https://download.csdn.net/download/hbhmao/652330" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							windows<em>快捷键</em>						</h4>
+						<span class="data float-right">09-26</span>
+					</div>
+					<div class="desc oneline">
+							windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键windows快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/baihedou/2652602,BlogCommendFromQuerySearch_39"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/baihedou/2652602,BlogCommendFromQuerySearch_39"}'>
+			<a href="https://download.csdn.net/download/baihedou/2652602" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							电脑<em>快捷键</em>-----电脑<em>快捷键</em>						</h4>
+						<span class="data float-right">08-28</span>
+					</div>
+					<div class="desc oneline">
+							电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键电脑快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/qq_30891173/9994206,BlogCommendFromQuerySearch_40"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/qq_30891173/9994206,BlogCommendFromQuerySearch_40"}'>
+			<a href="https://download.csdn.net/download/qq_30891173/9994206" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							xcode<em>快捷键</em> - qq_30891173						</h4>
+						<span class="data float-right">09-25</span>
+					</div>
+					<div class="desc oneline">
+							xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键xcode快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/nihaozwj/211116,BlogCommendFromQuerySearch_41"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/nihaozwj/211116,BlogCommendFromQuerySearch_41"}'>
+			<a href="https://download.csdn.net/download/nihaozwj/211116" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							电脑<em>快捷键</em>大全						</h4>
+						<span class="data float-right">07-16</span>
+					</div>
+					<div class="desc oneline">
+							包括windows快捷键、word快捷键、Excel快捷键、IE快捷键、Freehand 快捷键、protel99 快捷键、 Illustrator快捷键、 Photoshop快捷键、 AutoCAD 快捷键、 CorelDRAW 快捷键...					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/luozhiwei1989/3335172,BlogCommendFromQuerySearch_42"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/luozhiwei1989/3335172,BlogCommendFromQuerySearch_42"}'>
+			<a href="https://download.csdn.net/download/luozhiwei1989/3335172" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							ps<em>快捷键</em>						</h4>
+						<span class="data float-right">06-02</span>
+					</div>
+					<div class="desc oneline">
+							ps快捷键ps快捷键ps快捷键ps快捷键ps快捷键ps快捷键ps快捷键ps快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_67" data-pid="67" data-track-view='{"mod":"kp_popu_67-658","con":",,"}' data-track-click='{"mod":"kp_popu_67-658","con":",,"}'><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3573058",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer" ></script></div></div>
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/leon8/3612409,BlogCommendFromQuerySearch_43"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/leon8/3612409,BlogCommendFromQuerySearch_43"}'>
+			<a href="https://download.csdn.net/download/leon8/3612409" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							Eclipse<em>快捷键</em>						</h4>
+						<span class="data float-right">09-18</span>
+					</div>
+					<div class="desc oneline">
+							Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键Eclipse快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/dawan521/3217830,BlogCommendFromQuerySearch_44"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/dawan521/3217830,BlogCommendFromQuerySearch_44"}'>
+			<a href="https://download.csdn.net/download/dawan521/3217830" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							ps<em>快捷键</em> 欢迎大家下载						</h4>
+						<span class="data float-right">04-23</span>
+					</div>
+					<div class="desc oneline">
+							ps 快捷键   ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键  ps 快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/ayay_870621/861626,BlogCommendFromQuerySearch_45"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/ayay_870621/861626,BlogCommendFromQuerySearch_45"}'>
+			<a href="https://download.csdn.net/download/ayay_870621/861626" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							eclipse<em>快捷键</em>						</h4>
+						<span class="data float-right">12-12</span>
+					</div>
+					<div class="desc oneline">
+							eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键eclipse快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/stonespawn/680325,BlogCommendFromQuerySearch_46"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/stonespawn/680325,BlogCommendFromQuerySearch_46"}'>
+			<a href="https://download.csdn.net/download/stonespawn/680325" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							VS2005的<em>快捷键</em> - 至尊宝19877						</h4>
+						<span class="data float-right">10-10</span>
+					</div>
+					<div class="desc oneline">
+							VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键VS2005的快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/panzhihao/1423232,BlogCommendFromQuerySearch_47"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/panzhihao/1423232,BlogCommendFromQuerySearch_47"}'>
+			<a href="https://download.csdn.net/download/panzhihao/1423232" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							驱动x81<em>快捷键</em>驱动						</h4>
+						<span class="data float-right">06-20</span>
+					</div>
+					<div class="desc oneline">
+							快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动快捷键驱动					</div>
+				</div>
+			</a>
+		</div>
+	
+    <div class="recommend-item-box recommend-ad-box"><div id="kp_box_68" data-pid="68" data-track-view='{"mod":"kp_popu_68-659","con":",,"}' data-track-click='{"mod":"kp_popu_68-659","con":",,"}'><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3573059",
+            container:  s
+        });
+    })();
+</script></div></div>
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/xiaoyan1/306871,BlogCommendFromQuerySearch_48"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/xiaoyan1/306871,BlogCommendFromQuerySearch_48"}'>
+			<a href="https://download.csdn.net/download/xiaoyan1/306871" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							<em>快捷键</em><em>快捷键</em><em>快捷键</em>						</h4>
+						<span class="data float-right">12-12</span>
+					</div>
+					<div class="desc oneline">
+							快捷键快捷键快捷键快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    			<div class="recommend-item-box recommend-box-ident recommend-download-box clearfix" data-track-view='{"mod":"popu_387","con":",https://download.csdn.net/download/lwy197926/1972442,BlogCommendFromQuerySearch_49"}' data-track-click='{"mod":"popu_387","con":",https://download.csdn.net/download/lwy197926/1972442,BlogCommendFromQuerySearch_49"}'>
+			<a href="https://download.csdn.net/download/lwy197926/1972442" target="_blank">
+				<div class="content">
+					<div class="">
+						<span class="type">下载</span>
+						<h4 class="text-truncate oneline clearfix">
+							DELPHI<em>快捷键</em>DELPHI<em>快捷键</em>						</h4>
+						<span class="data float-right">01-07</span>
+					</div>
+					<div class="desc oneline">
+							DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键DELPHI快捷键					</div>
+				</div>
+			</a>
+		</div>
+	
+    
+	
+    
+    
+
+            <div class="recommend-loading-box">
+                <img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'>
+            </div>
+            <div class="recommend-end-box">
+                <p class="text-center">没有更多推荐了，<a href="https://blog.csdn.net/" class="c-blue c-blue-hover c-blue-focus">返回首页</a></p>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+		    <div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/H_hei">
+                <img src="https://avatar.csdn.net/3/4/D/3_h_hei.jpg" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://blog.csdn.net/H_hei" target="_blank" class="" id="uid">丿回到火星去</a>
+            </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+                    </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="17">
+                        <dt><a href="https://blog.csdn.net/h_hei?t=1">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/h_hei?t=1"><span class="count">17</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="10">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">10</span></dd>
+        </dl>
+        <dl class="text-center" title="13">
+            <dt>喜欢</dt>
+            <dd><span class="count">13</span></dd>
+        </dl>
+        <dl class="text-center" title="0">
+            <dt>评论</dt>
+            <dd><span class="count">0</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="2级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-2"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="4357">
+                4357            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="257">
+                257            </dd>
+        </dl>
+        <dl title="335365">
+            <dt>排名：</dt>
+            <dd>33万+</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+                        <div class="icon-badge" title="持之以恒">
+            <div class="mouse-box">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#csdnc-m-lasting"></use>
+                </svg>
+                <div class="icon-arrow"></div>
+            </div>
+            <div class="grade-detail-box">
+                <div class="pos-box">
+                    <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#csdnc-m-lasting"></use>
+                        </svg>
+                        <p>持之以恒</p>
+                    </div>
+                    <div class="right-box d-flex justify-content-center align-items-center">
+                        授予每个自然月内发布4篇或4篇以上原创或翻译IT博文的用户。不积跬步无以至千里，不积小流无以成江海，程序人生的精彩需要坚持不懈地积累！
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                <script>
+            (function ($) {
+                setTimeout(function(){
+                    $('div.icon-badge.show-moment').removeClass('show-moment');
+                }, 5000);
+            })(window.jQuery)
+        </script>
+    </div>
+    </div>
+		    <div class="csdn-tracking-statistics mb8 box-shadow" data-pid="blog" data-mod="popu_4" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+      <div id="kp_box_56" data-pid="56" data-track-view='{"mod":"kp_popu_56-606","con":",,"}' data-track-click='{"mod":"kp_popu_56-606","con":",,"}'><!-- 广告位开始 -->
+<ins data-revive-zoneid="486" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+<!-- 广告位结束 -->
+<script language="javascript" type="text/javascript" src="https://ads.csdn.net/js/async_new.js"></script></div>    </div>
+</div>
+		    <div id="asideNewArticle" class="aside-box">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix csdn-tracking-statistics tracking-click" data-mod="popu_382">
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/H_hei/article/details/84294994" target="_blank">集成算法(AdaBoost基本原理)</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/H_hei/article/details/84196235" target="_blank">集成算法(Bagging，随机森林)</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/H_hei/article/details/84142537" target="_blank">决策树 ( decision tree)详解</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/H_hei/article/details/83991209" target="_blank">SVM(Support Vector Machin) 支持向量机 详解</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/H_hei/article/details/83927431" target="_blank">KNN(k-nearest neighbors) K近邻算法深入</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+		    		    <div id="asideCategory" class="aside-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/7886985">
+                    <span class="title oneline">机器学习 公理到算法</span>
+                    <span class="count float-right">14篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/7224650">
+                    <span class="title oneline">简单算法</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/8099783">
+                    <span class="title oneline">Linux之路</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/h_hei/article/category/8294014">
+                    <span class="title oneline">Java Web</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+    </div>
+		    <div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/11">
+                    2018年11月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/10">
+                    2018年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/09">
+                    2018年9月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/08">
+                    2018年8月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2018/07">
+                    2018年7月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2017/11">
+                    2017年11月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/h_hei/article/month/2017/10">
+                    2017年10月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+		    <div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/84196235">集成算法(Bagging，随机森林)</a>
+					<p class="read">阅读量：<span>1212</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/78507785">论Python和Java中 正则表达式 [反斜线“\”]</a>
+					<p class="read">阅读量：<span>408</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/82756207">JupyterLab快捷键</a>
+					<p class="read">阅读量：<span>272</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/81272924">详解机器学习由 信息量→熵→相对熵→交叉熵 ___转自狐友</a>
+					<p class="read">阅读量：<span>171</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/h_hei/article/details/81364116">tensorFlow使用的求导方法原理</a>
+					<p class="read">阅读量：<span>137</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+		    		<div id="asideFooter">
+			
+		<div class="aside-box">
+			<div id="kp_box_57" data-pid="57" data-track-view='{"mod":"kp_popu_57-77","con":",,"}' data-track-click='{"mod":"kp_popu_57-77","con":",,"}'><script type="text/javascript" src="//rabc1.iteye.com/common/web/site/9i6gu.js?av=neunkwb"></script></div>		</div>
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask-dark"></div>
+<div class="pulllog-box" style="display: block;">
+	<div class="pulllog clearfix">
+		<span class="text float-left">
+            <div id="dmp_ad_69"><div id="kp_box_69" data-pid="69" data-track-view='{"mod":"kp_popu_69-75","con":",,"}' data-track-click='{"mod":"kp_popu_69-75","con":",,"}'><div style="float:left;margin-right:5px;border:1px solid #f13d3d;padding:2px 5px 0px 5px;">
+<a href="https://www.csdn.net/2018dev/?utm_source=blogtextlink" target="_blank" style="color:#f13d3d;font-weight:bold;text-decoration:none;font-size:15px;">开发者调查</a>
+</div>
+
+<div style="float:left;margin-right:5px;border:1px solid #000;padding:2px 5px 0px 5px;background:#000;">
+<a href="https://edu.csdn.net/topic/python115?utm_source=ditong1" target="_blank" style="color:#fff;font-weight:bold;text-decoration:none;font-size:15px;">Python学习路线！</a>
+</div>
+<div style="float:left;margin-right:5px;border:1px solid #f13d3d;padding:2px 5px 0px 5px;">
+<a href="https://mall.csdn.net/vip_code?utm_source=blogtextlink" target="_blank" style="color:#f13d3d;font-weight:bold;text-decoration:none;font-size:15px;">会员任意学</a>
+</div>
+<div style="float:left;margin-right:5px;border:1px solid #000;padding:2px 5px 0px 5px;background:#000;">
+<a href="http://bdtc2018.hadooper.cn/?utm_source=bk" target="_blank" style="color:#fff;font-weight:bold;text-decoration:none;font-size:15px;">中国大数据技术大会</a>
+</div>
+<div style="float:left;">
+<script type="text/javascript" src="//rabc1.iteye.com/common/js/ndr3h.js?b=wosyvccl"></script>
+<!-- 长文字链
+<script type="text/javascript" src="//rabc1.iteye.com/common/5klj5.js?kfxbghx=bx"></script>
+-->
+</div></div></div>            		</span>
+		<div class="pulllog-btn float-right clearfix">
+            <div class="float-left csdn-tracking-statistics tracking-click" data-mod="popu_557">
+                <a class="pulllog-login">登录</a>
+            </div>
+            <div class="pulllog-sigin float-left csdn-tracking-statistics tracking-click" data-mod="popu_558">
+                <a href="https://passport.csdn.net/account/mobileregister" target="_blank">注册</a>
+            </div>
+            <button class="btn-close">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#csdnc-times"></use>
+                </svg>
+            </button>
+		</div>
+	</div>
+</div>
+<div id="loginWrap" style="display:none"></div>
+<div class="tool-box">
+	<ul class="meau-list">
+		<li class="btn-like-box long-width">
+			<button class=" long-height hover-box btn-like " title="点赞">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup"></use>
+				</svg>
+				<span class="hover-show text-box text">
+					<span class="no-active">点赞</span>
+					<span class="active">取消点赞</span>
+				</span>
+				<p>1</p>
+			</button>
+		</li>
+		<li class="">
+						<a class="btn-comments low-height hover-box" title="写评论" href="#commentBox">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-comments"></use>
+				</svg>
+				<span class="hover-show text">评论</span>
+				<p class="">
+										</p>
+			</a>
+		</li>
+		<li class="toc-container-box" id="liTocBox">
+			<button class="btn-toc low-height hover-box" title="目录">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-contents"></use>
+				</svg>
+				<span class="hover-show text">目录</span>
+			</button>
+			<div class="toc-container">
+				<div class="pos-box">
+					<div class="icon-arrow"></div>
+					<div class="scroll-box">
+						<div class="toc-box"></div>
+					</div>
+				</div>
+				<div class="opt-box">
+					<button class="btn-opt prev nomore" title="向上">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronup"></use>
+						</svg>
+					</button>
+					<button class="btn-opt next">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevrondown"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</li>
+		<li>
+			<button class="btn-bookmark low-height hover-box" title="收藏">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark"></use>
+				</svg>
+					<span class="hover-show text">收藏</span>
+				<!-- <span class="hover-show text-box text">
+					<span class="no-active">收藏</span>
+					<span class="active">取消收藏</span>
+				</span> -->
+			</button>
+		</li>
+				<li class="bdsharebuttonbox">
+			<button class="btn-comments low-height hover-box" >
+				<a href="#" class="bds_weixin clear-share-style" data-cmd="weixin" title="手机看"></a>
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-usephone"></use>
+				</svg>
+				<span class="hover-show text text3">
+					手机看
+				</span>
+			</button>
+		</li>
+							<li class="widescreen-hide">
+				<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/h_hei/article/details/82687111" title="关于熵">
+					<svg class="icon hover-hide" aria-hidden="true">
+						<use xlink:href="#csdnc-chevronleft"></use>
+					</svg>
+					<span class="hover-show text text3">上一篇</span>
+				</a>
+			</li>
+								<li class="widescreen-hide">
+			<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/h_hei/article/details/82927305" title="Linux学习-常用命令">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-chevronright"></use>
+				</svg>
+				<span class="hover-show text text3">下一篇</span>
+			</a>
+		</li>
+				<li class="bdsharebuttonbox _360_interactive"style="margin-top: 8px;"><div id="kp_box_73" data-pid="73" data-track-view='{"mod":"kp_popu_73-97","con":",,"}' data-track-click='{"mod":"kp_popu_73-97","con":",,"}'><script type="text/javascript" src="//cjhd.mediav.com/js/interactive_plugin.js"></script> 
+			<style>
+				#_360_interactive > *{
+					 margin-left: -8px;
+				}
+			</style>
+			<div id="_360_interactive" > 
+				<script> INTERACTIVE_PLUGIN.render({ showid : 'N0ufqn', w: 60, h: 60, type: 'click', placeholderId: '_360_interactive' }); </script> 
+			</div>
+			<img src="//img-ads.csdn.net/2016/201608021757063065.png" style="margin: 0 auto;display: block;" alt=""></div></li>		<!-- 宽屏更多按钮 -->
+		<li class="widescreen-more">
+			<a class="btn-comments chat-ask-button low-height hover-box" title="快问" href="#chatqa">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-more"></use>
+				</svg>
+				<span class="hover-show text">更多</span>
+				
+			</a>
+			<ul class="widescreen-more-box">
+													<li class="widescreen-more">
+						<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/h_hei/article/details/82687111" title="关于熵">
+							<svg class="icon hover-hide" aria-hidden="true">
+								<use xlink:href="#csdnc-chevronleft"></use>
+							</svg>
+							<span class="hover-show text text3">上一篇</span>
+						</a>
+					</li>
+																<li class="widescreen-more">
+					<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/h_hei/article/details/82927305" title="Linux学习-常用命令">
+						<svg class="icon hover-hide" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronright"></use>
+						</svg>
+						<span class="hover-show text text3">下一篇</span>
+					</a>
+				</li>
+							</ul>
+		</li>
+	</ul>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://csdnimg.cn/static/api/js/share.js?v=89860594'];</script>
+<script>
+    var recommendCount = 50;
+    recommendCount = recommendCount > 1 ? (recommendCount + (recommendCount>6 ? 2 : 1)) : recommendCount;
+    var articleTit = articleTitles;
+    var ChannelId = 28;
+    var articleId = "82756207";
+    var commentscount = 0;
+    var islock = false;
+    var curentUrl = "https://blog.csdn.net/H_hei/article/details/82756207";
+    var myUrl = "https://my.csdn.net/";
+    //1禁止评论，2正常
+    var commentAuth = 2;
+    //百度搜索
+    var baiduKey = "jupyterlab+%E4%B8%8B%E4%B8%AA%E6%8C%87%E4%BB%A4+%E5%BF%AB%E6%8D%B7%E9%94%AE";
+    var needInsertBaidu = false;
+    // 代码段样式
+    var codeStyle = 'atom-one-dark';
+		var highlight = ["jupyterlab","\u5feb\u6377\u952e"];//高亮数组
+		// 相关推荐博主数据
+    var RecommendBlogExpertList = [{"user_name":"blueheart20","nick_name":"bladestone","avatar":"https:\/\/avatar.csdn.net\/7\/5\/5\/3_blueheart20.jpg","is_expert":true,"article_count":486},{"user_name":"weixin_38382105","nick_name":"IAMITPRO","avatar":"https:\/\/avatar.csdn.net\/0\/4\/E\/3_weixin_38382105.jpg","is_expert":false,"article_count":30},{"user_name":"caroline_12","nick_name":"caroline_12","avatar":"https:\/\/avatar.csdn.net\/2\/C\/D\/3_caroline_12.jpg","is_expert":false,"article_count":0},{"user_name":"ChenVast","nick_name":"ChenVast","avatar":"https:\/\/avatar.csdn.net\/C\/0\/9\/3_chenvast.jpg","is_expert":false,"article_count":436},{"user_name":"sqq513","nick_name":"nightttt7","avatar":"https:\/\/avatar.csdn.net\/4\/B\/F\/3_sqq513.jpg","is_expert":false,"article_count":14},{"user_name":"ds19991999","nick_name":"ds19991999","avatar":"https:\/\/avatar.csdn.net\/2\/C\/A\/3_ds19991999.jpg","is_expert":false,"article_count":93},{"user_name":"xingyuzhe","nick_name":"xingyuzhe","avatar":"https:\/\/avatar.csdn.net\/5\/D\/E\/3_xingyuzhe.jpg","is_expert":false,"article_count":55},{"user_name":"qq_28289369","nick_name":"\u8def\u8fdc\u554a\u54df","avatar":"https:\/\/avatar.csdn.net\/8\/C\/4\/3_qq_28289369.jpg","is_expert":false,"article_count":5},{"user_name":"weixin_41770169","nick_name":"\u5f90\u5c0f\u59b9","avatar":"https:\/\/avatar.csdn.net\/2\/C\/F\/3_weixin_41770169.jpg","is_expert":false,"article_count":276},{"user_name":"lp8800","nick_name":"XellossRyan","avatar":"https:\/\/avatar.csdn.net\/4\/0\/C\/3_lp8800.jpg","is_expert":false,"article_count":46}];
+
+		var articleType = 1;
+		var CopyrightContent = '';
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+<script src='https://csdnimg.cn/public/common/gotop/js/goTop-v1.0.min.js?v201811201455'></script>
+<script>
+    GoTop({
+        right: 8,
+        hasReport: true,
+        reportFun: function() {
+            showReport(false,articleTit);
+        }
+    })
+</script>
+<script src="https://g.csdnimg.cn/login-box/1.0.2/login-box.js?t=1542363472"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-946dc75567.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/detail-4554d82990.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9376486353.min.js"></script>
+<script src="//g.csdnimg.cn/fixed-sidebar/1.1.1/fixed-sidebar.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/search/baidu_search-1.1.2.js?v=201802071056&autorun=true&install=true&keyword=jupyterlab+%E4%B8%8B%E4%B8%AA%E6%8C%87%E4%BB%A4+%E5%BF%AB%E6%8D%B7%E9%94%AE"  type="text/javascript"></script>
+</body>
+
+<!-- 右侧第四栏 -->
+<div class="fourth_column">
+	<div class="title-box">
+		<b class="title">猿学习</b>
+		<span class="fourth_column_close">    
+			<svg class="icon" aria-hidden="true">
+				<use xlink:href="#csdnc-times"></use>
+			</svg>
+		</span>
+		
+	</div>
+	<ul class="">
+		<li><div id="kp_box_456" data-pid="456" data-track-view='{"mod":"kp_popu_456-638","con":",,"}' data-track-click='{"mod":"kp_popu_456-638","con":",,"}'><a href="https://edu.csdn.net/topic/ai30?utm_source=blogright" target="_blank">  <div class="blogkp1"><img src="https://img-ads.csdn.net/2018/201811070940425306.png"width="100" height="100"><h6>人工智能工程师免费试听</h6></div></a></div></li>		<li><div id="kp_box_457" data-pid="457" data-track-view='{"mod":"kp_popu_457-639","con":",,"}' data-track-click='{"mod":"kp_popu_457-639","con":",,"}'><a href="https://edu.csdn.net/topic/python115?utm_source=blogright" target="_blank"><div class="blogkp2"><img src="https://img-ads.csdn.net/2018/201811070945058586.png"width="100" height="100"><h6>Python全栈工程师免费试听</h6>
+    </div></a></div></li>		<li><div id="kp_box_458" data-pid="458" data-track-view='{"mod":"kp_popu_458-640","con":",,"}' data-track-click='{"mod":"kp_popu_458-640","con":",,"}'><a href="https://gitchat.csdn.net/column/5a7d1a13a7f22b3dffca7e49?utm_source=csdn100" target="_blank"><div class="blogkp3"><img src="http://img-ads.csdn.net/2018/201811091452349556.png"width="100" height="100"><h6>Python 爬虫和数据分析实战</h6><span style="position:absolute;right:0;bottom:0;background:url(https://img-ads.csdn.net/2016/201608021757063065.png) no-repeat;width:33px;height:18px;display:block;z-index: 9999;"></span></div></a></div></li>		<li><div id="kp_box_459" data-pid="459" data-track-view='{"mod":"kp_popu_459-655","con":",,"}' data-track-click='{"mod":"kp_popu_459-655","con":",,"}'><a href="https://edu.csdn.net/topic/ai30?utm_source=blogright" target="_blank"><div class="blogkp3"><img src="https://img-ads.csdn.net/2018/201811091258589141.png"width="100" height="100"><h6>人工智能工程师 </h6><span style="position:absolute;right:0;bottom:0;background:url(https://img-ads.csdn.net/2016/201608021757063065.png) no-repeat;width:33px;height:18px;display:block;z-index: 9999;"></span></div></a></div></li>	</ul>
+</div>
+<script type="text/javascript">
+	$('.fourth_column_close').click(function(){
+		$('.fourth_column').remove();
+	})
+</script>
+<!-- 右侧第四栏end -->
+<!-- 高亮未与 markdown兼容  -->
+	<script type="text/javascript" src="https://csdnimg.cn/release/phoenix/production/markdownCopy-3e5d9ef4b0.js" /></script>
+
+<script type="text/javascript" src="//g.csdnimg.cn/check-adblock/1.0.9/check-adblock.js"></script>
+
+<script type="text/javascript" src="https://static-blog.csdn.net/mdeditor/public/res/bower-libs/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript">
+window.baidu_hh_hotword = {
+    di:'24004469_1_oem_dg',
+		id:['content_views'],
+    isMobile:false,
+    page_url:'https://blog.csdn.net/H_hei/article/details/82756207',
+    title:'JupyterLab快捷键',
+    sid:""
+}
+</script>
+<script src="https://gh.bdstatic.com/static/gh/js/ll/m_word.js"></script>
+</html>
