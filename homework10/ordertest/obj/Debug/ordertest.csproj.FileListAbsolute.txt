@@ -1,0 +1,42 @@
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\bin\Debug\ordertest.exe.config
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\bin\Debug\ordertest.exe
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\bin\Debug\ordertest.pdb
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\obj\Debug\ordertest.exe
+Z:\SynologyDrive\CSharpHomeworks-master-2\Homework4\ordertest\obj\Debug\ordertest.pdb
+C:\Users\jiaxy\source\repos\Homework4\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\jiaxy\source\repos\Homework4\ordertest\bin\Debug\ordertest.exe
+C:\Users\jiaxy\source\repos\Homework4\ordertest\bin\Debug\ordertest.pdb
+C:\Users\jiaxy\source\repos\Homework4\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\jiaxy\source\repos\Homework4\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\jiaxy\source\repos\Homework4\ordertest\obj\Debug\ordertest.exe
+C:\Users\jiaxy\source\repos\Homework4\ordertest\obj\Debug\ordertest.pdb
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\bin\Debug\ordertest.exe
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\bin\Debug\ordertest.pdb
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\obj\Debug\ordertest.exe
+C:\Users\LENOVO\Documents\Tencent Files\1026613163\FileRecv\OrderExample\ordertest\obj\Debug\ordertest.pdb
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\bin\Debug\ordertest.exe
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\bin\Debug\ordertest.pdb
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\obj\Debug\ordertest.exe
+C:\Users\LENOVO\Desktop\OrderExample\ordertest\obj\Debug\ordertest.pdb
+C:\Users\LENOVO\source\repos\homework8\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\LENOVO\source\repos\homework8\ordertest\bin\Debug\ordertest.exe
+C:\Users\LENOVO\source\repos\homework8\ordertest\bin\Debug\ordertest.pdb
+C:\Users\LENOVO\source\repos\homework8\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\homework8\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\homework8\ordertest\obj\Debug\ordertest.exe
+C:\Users\LENOVO\source\repos\homework8\ordertest\obj\Debug\ordertest.pdb
+C:\Users\LENOVO\source\repos\homework9\ordertest\bin\Debug\ordertest.exe.config
+C:\Users\LENOVO\source\repos\homework9\ordertest\bin\Debug\ordertest.exe
+C:\Users\LENOVO\source\repos\homework9\ordertest\bin\Debug\ordertest.pdb
+C:\Users\LENOVO\source\repos\homework9\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\homework9\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\homework9\ordertest\obj\Debug\ordertest.exe
+C:\Users\LENOVO\source\repos\homework9\ordertest\obj\Debug\ordertest.pdb
